@@ -1,0 +1,29 @@
+diff -urp demo5/user-man.php demo6/user-man.php
+--- demo5/user-man.php	2010-08-03 16:05:59 +0000
++++ demo6/user-man.php	2010-08-03 16:06:10 +0000
+@@ -21,6 +21,14 @@ $hash_cost_log2 = 8;
+ // Do we require the hashes to be portable to older systems (less secure)?
+ $hash_portable = FALSE;
+ 
++/* Dummy salt to waste CPU time on when a non-existent username is requested.
++ * This should use the same hash type and cost parameter as we're using for
++ * real/new hashes.  The intent is to mitigate timing attacks (probing for
++ * valid usernames).  This is optional - the line may be commented out if you
++ * don't care about timing attacks enough to spend CPU time on mitigating them
++ * or if you can't easily determine what salt string would be appropriate. */
++$dummy_salt = '$2a$08$1234567890123456789012';
++
+ // Are we debugging this code?  If enabled, OK to leak server setup details.
+ $debug = TRUE;
+ 
+@@ -130,6 +138,10 @@ if ($op === 'new') {
+ 	if (!$stmt->fetch() && $db->errno)
+ 		fail('MySQL fetch', $db->error);
+ 
++// Mitigate timing attacks (probing for valid usernames)
++	if (isset($dummy_salt) && strlen($hash) < 20)
++		$hash = $dummy_salt;
++
+ 	if ($hasher->CheckPassword($pass, $hash)) {
+ 		$what = 'Authentication succeeded';
+ 	} else {

@@ -1,0 +1,70 @@
+body {
+	transform: scale(.9);
+	width: 990px;
+}
+
+#tawkchat-iframe-container,
+#tawkchat-minified-iframe-element,
+#tawkchat-maximized-iframe-element,
+.back_header,
+.back_footer,
+.sidebar,
+.back_orders {
+	display: none !important;
+}
+
+#body_work_order.page-header-fixed .page-container {
+	margin-top: -54px !important;
+	margin-left: -24px !important;
+}
+
+.page-content-wrapper .page-content {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.warning,
+.page-title,
+.print_type {
+	display: none;
+}
+
+.wo_info,
+.wo_to {
+	margin-top: 0 !important;
+}
+
+#body_work_order .table-cart th {
+	color: #000000 !important;
+}
+
+#body_work_order .table-cart p {
+	font-size: 17px;
+	color: #000000 !important;
+}
+
+#body_work_order .table-cart p b {
+	font-weight: bold;
+}
+
+#body_work_order .table-cart td.job_name h3 {
+	color: #ff0000 !important; 
+}
+
+#body_work_order .cart_product {
+	font-size: 130%;
+	color: #000000 !important;
+}
+
+#body_work_order .details {
+	font-size: 110% !important;
+	color: #000000; 
+}
+
+.pagebreak { 
+	page-break-after: always; 
+}
+
+.hidden_web {
+	display: block;
+}

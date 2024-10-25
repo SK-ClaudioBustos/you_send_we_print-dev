@@ -1,0 +1,39 @@
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /home/yousen5/public_html/dev3.yousendweprint.com
+currentDir : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/section
+
+*/
+
+/* section.css */
+
+/* 1  */ .col-text :first-child {
+/* 2  */     margin-top: 0;
+/* 3  */ }
+/* 4  */ 
+/* 5  */ .content h2 {
+/* 6  */ 	font-size: 22px;
+/* 7  */ 	color: #6c9e2b;
+/* 8  */ }
+/* 9  */ 
+/* 10 */ .back_about {
+/* 11 */ 	margin-bottom: 20px;
+/* 12 */ }
+/* 13 */ .back_about_sep {
+/* 14 */ 	display: flex;
+/* 15 */ 	flex-wrap: wrap;
+/* 16 */ 	align-items: center;
+/* 17 */ 	margin-bottom: 20px;
+/* 18 */ }
+/* 19 */ .inner_tile {
+/* 20 */ 	width: 50%;
+/* 21 */ }
+/* 22 */ .inner_tile img{
+/* 23 */ 	width: 100%;
+/* 24 */ 	padding: 1%;
+/* 25 */ 	height: auto;
+/* 26 */ }
+/* 27 */ 
+/* 28 */ @media (min-width: 1600px) {
+/* 29 */ 
+/* 30 */ }

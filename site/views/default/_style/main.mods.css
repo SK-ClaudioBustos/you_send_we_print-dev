@@ -1,0 +1,46 @@
+
+/* Menu -------------------------- */
+
+#body_home 			.hor-menu .menu_home,
+#body_portfolio 	.hor-menu .menu_portfolio,
+#body_faq 			.hor-menu .menu_faq,
+#body_artspec 		.hor-menu .menu_artspec,
+#body_article		.hor-menu .menu_article,
+#body_utilities 	.hor-menu .menu_utilities,
+#body_sect_about 	.hor-menu .menu_about,
+#body_contact 		.hor-menu .menu_contact,
+#body_cart	 		.hor-menu .menu_cart {
+	background: #aa0000 !important;
+	color: #ffffff;
+}
+
+#body_home 			.hor-menu .menu_home a,
+#body_portfolio 	.hor-menu .menu_portfolio a,
+#body_faq 			.hor-menu .menu_faq a,
+#body_artspec 		.hor-menu .menu_artspec a,
+#body_article		.hor-menu .menu_article a,
+#body_utilities 	.hor-menu .menu_utilities a,
+#body_sect_about 	.hor-menu .menu_about a,
+#body_contact 		.hor-menu .menu_contact a,
+#body_cart	 		.hor-menu .menu_cart a {
+	background: #aa0000 !important;
+	cursor: default;
+}
+
+
+/* Footer ------------------------ */
+
+#body_faq 			.foot_faq,
+#body_sect_terms 	.foot_terms,
+#body_sect_privacy	.foot_privacy,
+#body_article 		.foot_article,
+#body_utilities 	.foot_utilities,
+#body_artspec 		.foot_artspec,
+#body_newsletter 	.foot_newsletter,
+#body_portfolio		.foot_portfolio,
+#body_sitemap 		.foot_sitemap {
+	color: #5f972a;
+	cursor: default;
+	text-decoration: none;
+}
+

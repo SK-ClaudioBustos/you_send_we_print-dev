@@ -1,0 +1,127 @@
+.product_list {
+	width: 640px;
+}
+
+.select2-container--bootstrap .select2-results > .select2-results__options {
+	max-height: 480px;
+}
+
+.nav-tabs > li > a {
+	padding: 10px 12px;
+}
+
+.nav-tabs > li > a.separator {
+	margin-left: 32px;
+}
+
+
+
+.tab-pane {
+	min-height: 460px;
+} 
+
+#form {
+	height: 440px;
+}
+
+#discounts, 
+#turnarounds {
+	height: 190px;
+}
+
+/* tinymce --------------------------------------------- */
+
+/*.tox-tinymce-aux {
+	display: none;
+}
+
+.tox-tinymce-aux {
+    position: relative !important;
+    z-index: 1600;
+}*/
+
+/* fileinput ------------------------------------------- */
+
+.fileinput-container {
+	height: 34px;
+}
+
+
+/* sorting --------------------------------------------- */
+
+#sort_container,
+#form_container{
+	overflow-y: scroll;
+	height: 440px;
+	margin: 0;
+	border: 1px solid #cccccc;
+}
+
+.check_list {
+	padding: 4px 12px 6px;
+}
+
+.check_list ol > li {
+	float: none;
+	margin: 0;
+	padding: 3px;
+	list-style: none;
+}
+
+	.check_list ol li.disabled {
+		color: #bbbbbb;
+	}
+
+.check_list ol li label {
+	margin: 0;
+}
+
+#order_list,
+#form_list {
+	padding: 0;
+}
+
+.sortable li {
+	background: #ffffff;
+	cursor: default;
+}
+
+.ui-sortable-helper {
+	border: 1px dashed #cccccc;
+}
+
+.sortable li.sort_placeholder {
+	height: 17px;
+}
+
+
+form ol li.check {
+    padding-top: 6px;
+}
+
+
+#form_list > li {
+	padding: 12px 3px;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+#form_list > li:first-child {
+	padding-top: 8px;
+}
+
+#form_list li label {
+	margin-left: 6px;
+	width: 120px;
+}
+
+#form_list > li .col-sm-4 {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#lbl_form {
+	padding-top: 19px;
+}
+
+
+

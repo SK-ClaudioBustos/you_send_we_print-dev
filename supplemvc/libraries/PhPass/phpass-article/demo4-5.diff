@@ -1,0 +1,85 @@
+Only in demo5: pwqcheck.php
+diff -urp demo4/user-man.html demo5/user-man.html
+--- demo4/user-man.html	2010-04-09 09:00:43 +0000
++++ demo5/user-man.html	2010-04-15 02:28:19 +0000
+@@ -38,6 +38,7 @@ New password:<br>
+ <input type="submit" value="Change password">
+ </form>
+ <p>
+-<a href="http://www.openwall.com/phpass/">Powered by phpass</a>
++<a href="http://www.openwall.com/phpass/">Powered by phpass</a> and
++<a href="http://www.openwall.com/passwdqc/">passwdqc</a>
+ </body>
+ </html>
+diff -urp demo4/user-man.php demo5/user-man.php
+--- demo4/user-man.php	2010-04-18 05:52:32 +0000
++++ demo5/user-man.php	2010-08-03 16:05:59 +0000
+@@ -1,6 +1,7 @@
+ <?php
+ 
+ require '../PasswordHash.php';
++require 'pwqcheck.php';
+ 
+ // In a real application, these should be in a config file instead
+ $db_host = '127.0.0.1';
+@@ -9,6 +10,12 @@ $db_user = 'mydbuser';
+ $db_pass = 'voulDyu0gue$s?';
+ $db_name = 'myapp';
+ 
++// Do we have the pwqcheck(1) program from the passwdqc package?
++$use_pwqcheck = TRUE;
++// We can override the default password policy
++$pwqcheck_args = '';
++#$pwqcheck_args = 'config=/etc/passwdqc.conf';
++
+ // Base-2 logarithm of the iteration count used for password stretching
+ $hash_cost_log2 = 8;
+ // Do we require the hashes to be portable to older systems (less secure)?
+@@ -30,6 +37,28 @@ function fail($pub, $pvt = '')
+ 	exit("An error occurred ($msg).\n");
+ }
+ 
++function my_pwqcheck($newpass, $oldpass = '', $user = '')
++{
++	global $use_pwqcheck, $pwqcheck_args;
++	if ($use_pwqcheck)
++		return pwqcheck($newpass, $oldpass, $user, '', $pwqcheck_args);
++
++/* Some really trivial and obviously-insufficient password strength checks -
++ * we ought to use the pwqcheck(1) program instead. */
++	$check = '';
++	if (strlen($newpass) < 7)
++		$check = 'way too short';
++	else if (stristr($oldpass, $newpass) ||
++	    (strlen($oldpass) >= 4 && stristr($newpass, $oldpass)))
++		$check = 'is based on the old one';
++	else if (stristr($user, $newpass) ||
++	    (strlen($user) >= 4 && stristr($newpass, $user)))
++		$check = 'is based on the username';
++	if ($check)
++		return "Bad password ($check)";
++	return 'OK';
++}
++
+ function get_post_var($var)
+ {
+ 	$val = $_POST[$var];
+@@ -63,6 +92,9 @@ if (mysqli_connect_errno())
+ $hasher = new PasswordHash($hash_cost_log2, $hash_portable);
+ 
+ if ($op === 'new') {
++	if (($check = my_pwqcheck($pass, '', $user)) !== 'OK')
++		fail($check);
++
+ 	$hash = $hasher->HashPassword($pass);
+ 	if (strlen($hash) < 20)
+ 		fail('Failed to hash new password');
+@@ -111,6 +143,8 @@ if ($op === 'new') {
+ 		$newpass = get_post_var('newpass');
+ 		if (strlen($newpass) > 72)
+ 			fail('The new password is too long');
++		if (($check = my_pwqcheck($newpass, $pass, $user)) !== 'OK')
++			fail($check);
+ 		$hash = $hasher->HashPassword($newpass);
+ 		if (strlen($hash) < 20)
+ 			fail('Failed to hash new password');

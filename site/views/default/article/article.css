@@ -1,0 +1,106 @@
+/* CSS Document */
+
+.articles .date {
+	display: block;
+	margin: 0 0 12px;
+	color: #6c9e2b;
+}
+
+.articles h3 {
+	margin: 4px 0 10px 0;
+}
+
+.articles h3 a {
+	color: #6c9e2b;
+}
+
+
+.articles h4 {
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 16px;
+}
+
+	.articles h4:first-child {
+		margin-top: 0;
+	}
+
+.articles h5 {
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.articles .panel .panel-body p {
+	font-size: 14px;
+}
+
+.articles .panel .panel-body li {
+	font-size: 14px;
+	list-style: square;
+}
+
+.articles > ul {
+	padding-left: 0;
+}
+
+.articles > ul > li {
+	margin-bottom: 16px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #eeeeee;
+	list-style: none;
+}
+
+.articles .text ul {
+	margin-bottom: 10px;
+	padding-left: 16px;
+}
+
+.articles .text li {
+	list-style: square;
+}
+
+
+
+a.back {
+	display: block;
+	margin-top: 16px;
+	color: #6c9e2b;
+}
+
+
+.articles .picture {
+	float: right;
+	margin: -14px 0 10px 16px;
+}
+
+.articles .picture img {
+	border: 1px solid #e8e8e8;
+}
+
+.articles em {
+	display: block;
+	margin: 0;
+	font-style: normal;
+	font-size: 85%; 
+	color: #999999;
+}
+
+.articles a.more {
+	display: block;
+	margin: 8px 0;
+	color: #D20032;
+	font-size: 85%; 
+}
+
+.article span{
+	display: block;
+	margin: 0 0 .8em 0;
+}
+
+.article .brief {
+	color: #000000;	
+}
+
+.article .source {
+	font-size: 85%; 
+}

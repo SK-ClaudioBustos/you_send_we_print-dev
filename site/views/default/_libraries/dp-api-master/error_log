@@ -1,0 +1,11 @@
+[24-May-2018 15:13:01 Etc/GMT+7] PHP Parse error:  syntax error, unexpected '[' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/client.php on line 12
+[24-May-2018 15:13:41 Etc/GMT+7] PHP Parse error:  syntax error, unexpected '[' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/client.php on line 13
+[24-May-2018 15:14:09 Etc/GMT+7] PHP Parse error:  syntax error, unexpected '[' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/client.php on line 26
+[24-May-2018 15:14:31 Etc/GMT+7] PHP Parse error:  syntax error, unexpected '[' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/Moo.php on line 29
+[24-May-2018 15:15:09 Etc/GMT+7] PHP Parse error:  syntax error, unexpected '[' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/Moo.php on line 29
+[24-May-2018 15:15:21 Etc/GMT+7] PHP Parse error:  syntax error, unexpected '[' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/Moo.php on line 40
+[24-May-2018 15:15:53 Etc/GMT+7] PHP Parse error:  syntax error, unexpected '[' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/Moo.php on line 51
+[24-May-2018 15:27:16 Etc/GMT+7] PHP Parse error:  syntax error, unexpected '[' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/client.php on line 40
+[24-May-2018 15:34:07 Etc/GMT+7] PHP Parse error:  syntax error, unexpected '[' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/client.php on line 70
+[24-May-2018 15:36:22 Etc/GMT+7] PHP Parse error:  syntax error, unexpected ']', expecting ')' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/client.php on line 80
+[24-May-2018 15:39:18 Etc/GMT+7] PHP Parse error:  syntax error, unexpected '}' in /home/yousen5/public_html/yousendweprint-2018/site/views/default/_libraries/dp-api-master/client.php on line 84

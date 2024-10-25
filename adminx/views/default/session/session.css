@@ -1,0 +1,39 @@
+/* login ----------------------------------------------- */
+
+.login {
+    background-color: #cccccc !important;
+}
+
+.login .content {
+/*	width: 380px; */
+}
+
+.login .content .input-icon {
+	border-left: 2px solid #4D90FE !important;
+}
+
+.login .content .has-error .input-icon {
+	border-left: 2px solid #B94A48 !important;
+}
+
+.login .content .select2-container {
+    border-left: 2px solid #4D90FE !important;
+}
+
+.login .content .form-actions {
+	border-bottom: none;
+}
+
+.login p {
+	font-size: 13px;
+}
+
+.login .agree {
+	font-size: 13px;
+}
+
+#recaptcha_table #recaptcha_response_field {
+	height: 24px;
+	line-height: 20px;
+	padding: 1px 3px !important;
+}

@@ -1,0 +1,211 @@
+/*
+Uploadify v2.1.0
+Release Date: August 24, 2009
+
+Copyright (c) 2009 Ronnie Garcia, Travis Nickels
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+
+/* Button ---------------------------------------------------------------------- */
+
+
+.uploadify-button {
+	background: url(../_images/uploadify/upload_files.jpg) no-repeat;
+}
+
+.uploadify:hover .uploadify-button {
+	background-position: 0 -38px;
+}
+
+.uploadify-button.disabled {
+	background-position: 0 -76px;
+	cursor: default;
+}
+
+.uploadify:hover .uploadify-button.disabled {
+	background-position: 0 -76px;
+}
+
+
+.uploadify-button.other {
+	background: url(../_images/uploadify/upload_other.jpg) no-repeat;
+}
+
+.uploadify-button.other.disabled {
+	background-position: 0 -76px;
+}
+
+
+/* Queue ----------------------------------------------------------------------- */
+
+.uploadify-queue-item {
+	padding: 16px 0;
+	border-bottom: 1px solid #eeeeee;	
+}
+
+.uploadify-queue-item .file-item {
+	width: 734px;
+	height: 75px;
+	padding: 8px;
+	background-color: #f5f5f5;
+	font-size: 85%; /* 11px */	
+}
+
+.fileName {
+	display: block;
+	margin: 0 0 4px 0;	
+}
+
+.fileSize,
+.fileExist,
+.fileReady,
+.data,
+.processing {
+	font-weight: 600;	
+}
+
+.fileError {
+	font-weight: bold;	
+	font-size: 110%;
+	color: #cc0000;	
+}
+
+.uploadifyError .fileSize,
+.uploadifyError .data,
+.repeated .fileReady {
+	color: #c91f23;
+}
+
+.uploadify-queue-item .cancel {
+	float: right;
+}
+
+.uploadify-queue-item .cancel a {
+	display: block;
+	width: 21px;
+	height: 21px;
+	background: #d20032;
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.uploadify-progress {
+	background-color: #FFFFFF;
+	border: 1px solid #cccccc;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.uploadify-progress-bar {
+	background-color: #83b01f;
+	width: 0;
+	height: 7px;
+}
+
+.ready {
+	background: #EDF8D8 url(../_images/success.png) no-repeat 392px 8px;
+}
+
+.ready .cancel {
+	display: none;
+}
+
+
+
+/* Uploaded ------------------------------------------------------- */
+
+.uploadedInfo,
+.uploadedImage,
+.uploadedForm {
+	/*float: left;*/
+}
+
+.uploadedInfo {
+	/*width: 364px;
+	padding: 8px;
+	font-size: 85%;*/
+}
+
+.uploadedImage {
+	width: 130px;
+	height: 130px;
+	text-align: center;
+}
+
+.uploadedForm {
+	/*width: 355px;
+	padding: 0 5px 0 8px;*/
+}
+
+.fileReady,
+.processing {
+	display: block;
+	margin: 12px 0 0 0;	
+	font-size: 14px;
+	color: #83b01f;
+}
+
+.fileReady {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+
+
+
+.uploadedForm label {
+	padding-top: 8px;
+	/*width: 69px;
+	color: #83B01F;*/
+}
+
+.repeated label {
+	color: #cccccc;
+}
+
+.uploadedForm textarea {
+	/*width: 276px;
+	height: 91px;
+	border: none;
+	background: url(../_images/upload_textarea.jpg) no-repeat;
+	font-size: 85%;
+	color: #999999;*/
+}
+
+.uploadedInfo a.remove {
+	display: block;
+	margin-top: 8px;
+	color: #d20032;
+	/*width: 64px;
+	height: 16px;
+	margin: 2px 0 0 0;
+	padding: 2px 22px 0 0;
+	background: url(../_images/upload_remove.jpg) no-repeat right;
+	font-size: 85%; 
+	*/	
+}
+
+.repeated a.remove {
+	/*color: #c91f23;*/	
+}
+
+

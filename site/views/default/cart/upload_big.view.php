@@ -1,0 +1,1 @@
+<h1><?=$lng->text('product:upload_big_title')?></h1>

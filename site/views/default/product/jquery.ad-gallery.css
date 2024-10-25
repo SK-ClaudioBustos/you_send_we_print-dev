@@ -1,0 +1,224 @@
+.gallery_back {
+	float: left;
+	width: 510px;
+	padding: 12px;
+	background: url(../_images/back_portfolio_gallery.jpg) no-repeat;
+}
+
+.gallery {
+	padding: 9px;
+}
+
+.ad-gallery {
+  width: 510px;
+}
+
+.ad-gallery, .ad-gallery * {
+  margin: 0;
+  padding: 0;
+}
+  .ad-gallery .ad-image-wrapper {
+    width: 100%;
+    height: 310px;
+    margin-bottom: 22px;
+    position: relative;
+    overflow: hidden;
+  }
+    .ad-gallery .ad-image-wrapper .ad-loader {
+      position: absolute;
+      z-index: 10;
+      top: 49%;
+      left: 45%;
+      border: 1px solid #CCC;
+    }
+    .ad-gallery .ad-image-wrapper .ad-prev, 
+	.ad-gallery .ad-image-wrapper .ad-next {
+      position: absolute;
+      top: 0;
+      width: 50%;
+      height: 100%;
+      cursor: pointer;
+      display: block;
+      z-index: 100;
+      /* Or else IE will hide it */
+      background: url(non-existing.jpg)\9
+    }
+    .ad-gallery .ad-image-wrapper .ad-next {
+      right: 0;
+    }
+    .ad-gallery .ad-image-wrapper .ad-prev {
+      left: 0;
+    }
+      .ad-gallery .ad-image-wrapper .ad-prev .ad-prev-image, 
+	  .ad-gallery .ad-image-wrapper .ad-next .ad-next-image {
+        background: url(../_images/adgallery/ad_prev.png);
+        width: 30px;
+        height: 30px;
+        display: none;
+        position: absolute;
+        top: 47%;
+        left: 0;
+        z-index: 101;
+      }
+      .ad-gallery .ad-image-wrapper .ad-next .ad-next-image {
+        background: url(../_images/adgallery/ad_next.png);
+        width: 30px;
+        height: 30px;
+        right: 0;
+        left: auto;
+      }
+    .ad-gallery .ad-image-wrapper .ad-image {
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+      .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding: 7px;
+        text-align: left;
+        width: 100%;
+        z-index: 2;
+        background: url(../_images/adgallery/ad_caption.png);
+        color: #CCCCCC;
+		opacity: 0.8;
+      }
+      * html .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
+        background: none;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (enabled=true, sizingMethod=scale, src='../_images/adgallery/ad_caption.png');
+      }
+        .ad-gallery .ad-image-wrapper .ad-image .ad-image-description .ad-description-title {
+          display: block;
+        }
+  .ad-gallery .ad-controls {
+  		display: none; /* Ojo ------------ */
+    	height: 16px;
+		margin-bottom: 10px;
+		padding: 4px 8px;
+		background: #777777;
+		color: #DDDDDD;
+  }
+    .ad-gallery .ad-info {
+		float: left;
+		height: 15px;
+		padding: 1px 6px 0 6px;;
+		font-size: 0.9em;
+		background: #444444;
+    }
+    .ad-gallery .ad-slideshow-controls {
+      float: right;
+    }
+      .ad-gallery .ad-slideshow-controls .ad-slideshow-start, 
+			.ad-gallery .ad-slideshow-controls .ad-slideshow-stop {
+				float: left;
+				height: 16px;
+				width: 22px;
+      }
+			.ad-gallery .ad-slideshow-controls .ad-slideshow-start {
+				display: block;
+				background: #444444 url(../_images/adgallery/ad_tool_play.gif) no-repeat 0 0;
+			}
+			.ad-gallery .ad-slideshow-controls .ad-slideshow-start:hover {
+				background: #444444 url(../_images/adgallery/ad_tool_play.gif) no-repeat 0 -16;
+			}
+			.ad-gallery .ad-slideshow-controls .ad-slideshow-stop {
+				display: none;
+			}
+      .ad-gallery .ad-slideshow-controls .ad-slideshow-countdown {
+			float: left;
+			width: 21px;
+			height: 15px;
+			padding-top: 1px;
+			font-size: 0.9em;
+			background: #444444;
+			text-align: center;
+      }
+    .ad-gallery .ad-slideshow-running .ad-slideshow-start {
+			display: none;
+    }
+		.ad-gallery .ad-slideshow-running .ad-slideshow-stop {
+			display: block;
+			background: #444444 url(../_images/adgallery/ad_tool_play.gif) no-repeat -22px 0;
+		}
+		.ad-gallery .ad-slideshow-running .ad-slideshow-stop:hover {
+			background: #444444 url(../_images/adgallery/ad_tool_play.gif) no-repeat -22px -16;
+		}
+  .ad-gallery .ad-nav {
+    width: 420px;
+	padding: 0 43px;
+    position: relative;
+  }
+    .ad-gallery .ad-forward, .ad-gallery .ad-back {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      z-index: 1100;
+    }
+    /* IE 6 doesn't like height: 100% */
+    * html .ad-gallery .ad-forward, .ad-gallery .ad-back {
+      height: 47px;
+    }
+    .ad-gallery .ad-back {
+      cursor: pointer;
+      left: 7px;
+      width: 26px;
+      display: block;
+      background: url(../_images/adgallery/ad_scroll_back.png) left center no-repeat;
+    }
+    .ad-gallery .ad-forward {
+      cursor: pointer;
+      display: block;
+      right: 7px;
+      width: 26px;
+      background: url(../_images/adgallery/ad_scroll_forward.png) left center no-repeat;
+    }
+    .ad-gallery .ad-nav .ad-thumbs {
+      overflow: hidden;
+      width: 100%;
+	  height: 47px;
+    }
+      .ad-gallery .ad-thumbs .ad-thumb-list {
+        float: left;
+        width: 9000px;
+		margin-left: -10px;
+        list-style: none;
+      }
+        .ad-gallery .ad-thumbs li {
+          float: left;
+          padding-left: 10px;
+        }
+          .ad-gallery .ad-thumbs li a {
+            display: block;
+            border: 2px solid #CCCCCC;
+          }
+          .ad-gallery .ad-thumbs li a:hover {
+              border: 2px solid #D20032;
+          }
+          .ad-gallery .ad-thumbs li a.ad-active {
+              border: 2px solid #D20032;
+          }
+            .ad-gallery .ad-thumbs li a img {
+              display: block;
+            }
+            .ad-gallery .ad-thumbs li a.ad-active img {
+            }
+/* Can't do display none, since Opera won't load the images then */
+.ad-preloads {
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+
+.tp-bannertimer {
+	visibility: hidden;
+	width: 100%;
+	height: 5px !important;
+	/* background: #000; */
+	background: rgba(0,0,0,.15);
+	position: absolute;
+	z-index: 200;
+	top: 0;
+}

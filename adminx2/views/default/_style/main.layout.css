@@ -1,0 +1,281 @@
+/* Header ------------------------------------------------- */
+
+.back_header {
+	height: 117px;
+	background: url(../_images/back_header.jpg) repeat-x;
+}
+
+.header {
+	width: 972px;
+	height: 137px;
+	margin: 0 auto;	
+}
+
+.login_hidden {
+	display: none;
+	height: 20px;
+}
+
+.header a {
+	color: #f8f8f8;	
+}
+
+.header a:hover {
+	color: #ffffff;	
+}
+
+.header_left {
+	float: left;
+}
+
+.header_left a {
+	display: block;
+	width: 207px;
+	height: 70px;
+	margin: 8px 0 2px 0;
+}
+
+.header_right {
+	float: left;
+	width: 762px;
+	height: 95px;
+}
+
+
+
+
+/* Login ---------------------------------------------------------------------------------- */
+
+.login_tab {
+	height: 5px;
+	background: url(../_images/back_login_border.png) no-repeat;
+}
+
+.login_border {
+}
+
+
+.login_tab_left {
+	float: right;
+	height: 22px;
+	padding: 8px 2px 4px 32px;
+	background: url(../_images/back_login_left.png);
+	font-size: 93%; /* 12px */
+	color: #ffffff;
+}
+
+.login_tab_left a {
+	display: block;
+	float: left;
+	margin: 0 6px 0 0;
+}
+
+.login_tab_left a.login_link {
+	padding: 0 24px 4px 6px;
+	background: url(../_images/back_login_open.png) no-repeat right top;
+	font-weight: bold;
+}
+
+.login_error .login_tab_left a.login_link {
+	background-position: right -18px;
+}
+
+.login_tab_left span {
+	display: block;
+	float: left;
+	margin: 0 6px 0 0;
+}
+
+.login_tab_left span.user_label {
+	margin: 0 10px 0 0;
+	font-weight: bold;
+}
+
+.login_tab_right {
+	float: right;
+	width: 12px;
+	height: 32px;
+	background: url(../_images/back_login_right.png);
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+.suscribe {
+	float: right;	
+	padding: 8px 12px 0 0;
+	font-size: 85%; /* 11px */
+}
+
+.menu {
+	float: right;
+	width: 762px;
+	height: 43px;
+	margin: 20px 0 0 0;
+}
+
+.menu li {
+	float: right;
+	font-size: 112%; /* 14.5px */
+}
+
+.menu li a {
+	display: block;
+	margin: 0 4px 0 0;
+	padding: 12px 13px;
+}
+
+.menu li a:hover {
+	background: url(../_images/back_menu_hover.jpg);
+}
+
+.menu li a.selected {
+	background: url(../_images/back_menu_select.jpg);
+	font-weight: bold;
+	color: #ffffff;
+	cursor: default;
+}
+
+.cart {
+	float: right;
+	margin: 2px 20px 0 0;
+	font-size: 93%; /* 12px */
+}
+
+.cart a {
+	background: url(../_images/cart.jpg) left 1px no-repeat;
+	padding: 4px 0 4px 32px;	
+	color: #fb1f52;
+}
+
+.cart a:hover {
+	color: #fc9108;
+}
+
+.buying_steps {
+	clear: both;
+	height 22px;
+	padding: 12px 0 0 222px;
+	font-size: 108%; /* 14px */
+	color: #acacac;
+}
+
+.buying_steps li {
+	float: left;
+	height: 20px;
+	margin: 0 34px 0 0;
+}
+
+.buying_steps li.buy_label {
+	margin: 0 40px 0 0;
+	font-size: 110%; /* 14.5px */
+	font-weight: bold;
+}
+
+.buying_steps li.buy_step {
+	padding: 0 0 0 26px;
+}
+
+.buying_steps li#step_1 { background: url(../_images/step_1.jpg) no-repeat; }
+.buying_steps li#step_2 { background: url(../_images/step_2.jpg) no-repeat; }
+.buying_steps li#step_3 { background: url(../_images/step_3.jpg) no-repeat; }
+
+
+/* Body ------------------------------------------ */
+
+.body {
+	width: 972px;
+	margin: 0 auto;
+}
+
+
+/* Sidebar ------------------------------------------ */
+
+.sidebar {
+	float: left;
+	width: 192px;
+	margin: 22px 0;
+	background: url(../_images/back_sidebar.jpg) no-repeat;
+}
+
+.side_menu {
+	padding: 8px 18px;
+}
+
+.side_menu ul {
+	padding: 12px 0 4px 0;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.side_menu ul.last {
+	padding: 4px 0 24px 0;
+	border-bottom: none;
+}
+
+.side_menu h3 {
+	font-size: 100%; /* 13px */
+	color: #60952b;
+}
+
+.side_menu li {
+	margin: 0 0 2px 0;
+}
+
+.side_menu a {
+	font-size: 108%; /* 14px */
+	color: #909090;	
+}
+
+.side_menu a:hover {
+	color: #a8a8a8;
+}
+
+
+
+/* Content ------------------------------------------ */
+
+.content {
+	float: left;
+	width: 700px;
+	margin: 0 0 0 60px;
+	padding: 22px 0 36px 0;	
+}
+
+.content h1 {
+	font-size: 189%; /* 25px */
+	font-weight: bold;
+	color: #D20032;
+	margin: 0 0 4px 0;
+}
+
+.content h1 em {
+	font-style: normal;
+	font-weight: normal;	
+}
+
+#breadcrumb {
+	padding: 3px 0 20px 0;
+	border-top: 1px solid #DDDDDD;
+}
+
+.banner {
+	width: 220px;
+	min-height: 100px;
+    border: 1px solid #cccccc;
+}
+
+.banner .thumbnail {
+	display: block;
+	margin: 8px 12px;
+}
+
+/* Footer ------------------------------------------ */
+
+.back_footer {
+	height: 400px;
+	background: url(../_images/back_footer.jpg);
+}
+
+

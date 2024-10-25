@@ -1,0 +1,15 @@
+
+
+
+/* Menu -------------------------- */
+
+#body_home #menu_home,
+#body_section #menu_section,
+#body_article #menu_article,
+#body_event #menu_event,
+#body_gallery #menu_gallery,
+#body_contact #menu_contact,
+#body_user #menu_user {
+	color: #FFFFFF;
+	background-position: left -28px;
+}

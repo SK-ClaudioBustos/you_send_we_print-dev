@@ -1,0 +1,65 @@
+diff -urp demo3/user-man.html demo4/user-man.html
+--- demo3/user-man.html	2010-04-09 09:00:40 +0000
++++ demo4/user-man.html	2010-04-09 09:00:43 +0000
+@@ -25,6 +25,18 @@ Password:<br>
+ <input type="password" name="pass" size="60"><br>
+ <input type="submit" value="Log in">
+ </form>
++<h1>Change password</h1>
++<p>
++<form action="user-man.php" method="POST">
++<input type="hidden" name="op" value="change">
++Username:<br>
++<input type="text" name="user" size="60"><br>
++Current password:<br>
++<input type="password" name="pass" size="60"><br>
++New password:<br>
++<input type="password" name="newpass" size="60"><br>
++<input type="submit" value="Change password">
++</form>
+ <p>
+ <a href="http://www.openwall.com/phpass/">Powered by phpass</a>
+ </body>
+diff -urp demo3/user-man.php demo4/user-man.php
+--- demo3/user-man.php	2010-04-18 05:52:23 +0000
++++ demo4/user-man.php	2010-04-18 05:52:32 +0000
+@@ -41,7 +41,7 @@ function get_post_var($var)
+ header('Content-Type: text/plain');
+ 
+ $op = $_POST['op'];
+-if ($op !== 'new' && $op !== 'login')
++if ($op !== 'new' && $op !== 'login' && $op !== 'change')
+ 	fail('Unknown request');
+ 
+ $user = get_post_var('user');
+@@ -102,7 +102,30 @@ if ($op === 'new') {
+ 		$what = 'Authentication succeeded';
+ 	} else {
+ 		$what = 'Authentication failed';
++		$op = 'fail'; // Definitely not 'change'
+ 	}
++
++	if ($op === 'change') {
++		$stmt->close();
++
++		$newpass = get_post_var('newpass');
++		if (strlen($newpass) > 72)
++			fail('The new password is too long');
++		$hash = $hasher->HashPassword($newpass);
++		if (strlen($hash) < 20)
++			fail('Failed to hash new password');
++		unset($hasher);
++
++		($stmt = $db->prepare('update users set pass=? where user=?'))
++			|| fail('MySQL prepare', $db->error);
++		$stmt->bind_param('ss', $hash, $user)
++			|| fail('MySQL bind_param', $db->error);
++		$stmt->execute()
++			|| fail('MySQL execute', $db->error);
++
++		$what = 'Password changed';
++	}
++
+ 	unset($hasher);
+ }
+ 

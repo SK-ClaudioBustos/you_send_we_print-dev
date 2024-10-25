@@ -1,0 +1,262 @@
+
+
+form {
+}
+
+input,
+textarea {
+	padding: 3px 4px 4px 4px;
+}
+
+input[readonly],
+textarea[readonly],
+select[readonly] {
+	background-color: #fafafa;
+}
+
+input[disabled],
+select[disabled] {
+	background-color: #f8f8f8;
+	color: #bbbbbb;
+}
+
+select {
+	padding: 3px 3px 3px 3px;
+}
+
+form fieldset {
+	border: none;
+}
+
+form ol {
+	margin: 0 0 16px 0;
+}
+
+form ol li {
+	float: left;
+	list-style: none;
+	padding: 6px 0;
+}
+
+form ol li.medium {
+	width: 300px;
+	margin-right: 20px
+}
+
+form ol li.medium input,
+form ol li.medium select,
+form ol li.medium textarea {
+	width: 290px;
+}
+
+form ol li.medium select {
+	width: 300px;
+}
+
+
+form ol li.small {
+	width: 190px;
+	margin-right: 20px
+}
+
+form ol li.small input,
+form ol li.small select {
+	width: 180px;
+}
+
+form ol li.tiny {
+	width: 140px;
+	margin-right: 20px
+}
+
+form ol li.tiny input {
+	width: 130px;
+}
+
+form ol li.tiny select {
+	width: 140px;
+}
+
+
+form ol li.small input.datepick {
+	width: 150px;
+}
+
+.ui-datepicker-trigger {
+	margin: 0 0 0 2px;
+}
+
+form ol li label {
+	display: block;
+	margin: 0 0 4px 0;;
+	color: #555555;
+}
+
+form ol li label em {
+	font-size: 85%; /* 11px */
+	font-style: normal;
+	color: #666666;
+}
+
+form ol li input, 
+form ol li select,
+form ol li textarea {
+	width: 610px;
+	background: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	color: #777777;
+}
+
+form ol li select {
+	width: 620px;
+}
+
+form ol li input.number {
+	text-align: right;
+}
+
+form ol li textarea.tinymce {
+	overflow: hidden;
+	width: 618px;
+	padding: 100px 0 0 0;
+	background: #FFFFFF url(../_images/loader89.gif) no-repeat center 20px;
+	color: #FFFFFF;
+}
+
+form ol li.check {
+	padding-top: 31px;
+}
+
+form ol li.check label {
+	float: left;
+}
+
+form ol li.check input,
+form .check_list input {
+	float: left;
+	width: auto;
+	margin: 2px 6px 0 0;
+	background: #FFFFFF;
+	border: none;
+}
+
+textarea {
+	height: 100px;
+}
+
+textarea.tall {
+	height: 540px;
+}
+
+
+.ui-datepicker-trigger {
+	position: relative;
+	left: -24px;
+	top: 3px;
+}
+
+
+
+.success,
+.error {
+	width: 402px;
+	margin: 0 0 4px 160px;
+	padding: 2px 5px;
+	color: #FFFFFF;
+}
+
+.success {
+	background: #009900;
+}
+
+.error {
+	background: #FF0000;
+}
+
+input.cancel_form, 
+input.submit_form {
+	float: left;
+	width: 100px;
+	height: 24px;
+	margin: 6px 12px 0 0;
+	padding: 2px 8px 4px 8px;
+	background: #AAAAAA;
+	border: 0;
+	color: #FFFFFF;
+}
+
+input.submit_form {
+	font-weight: bold;
+}
+
+
+
+label {
+	padding: 0 0 0 7px;
+	background: url(../_images/bull_required.gif) no-repeat left top;
+}
+
+label.required {
+	background-position: left -16px;
+}
+
+label.missing {
+	color: #D20804;
+}
+
+.check label {
+	padding: 0;
+	background: none;
+}
+
+.new_row {
+	clear: both;
+}
+
+
+
+/* Notification ------------------------------------------------------ */
+
+div.growlUI { 
+}
+
+div.growlUI h3 {
+	margin: 0 0 4px 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+div.growlUI p {
+	margin: 0;
+	font-size: 15px;
+}
+
+
+.ntf_info, .ntf_success, .ntf_warning, .ntf_error, .ntf_validation {
+    /* border: 1px solid; */
+	width: 538px;
+	height: 33px;
+    padding: 8px 16px 8px 56px;
+	text-align: left;
+}
+
+.ntf_info {
+    color: #00529B;
+    background: #BDE5F8 url('../_images/notify/notify_info.png') no-repeat 16px 8px;
+}
+
+.ntf_success {
+    color: #4F8A10;
+    background: #DFF2BF url('../_images/notify/notify_success.png') no-repeat 16px 8px;
+}
+
+.ntf_warning {
+    color: #9F6000;
+    background: #FEEFB3 url('../_images/notify/notify_warning.png') no-repeat 16px 8px;
+}
+
+.ntf_error {
+    color: #D8000C;
+    background: #FFBABA url('../_images/notify/notify_error.png') no-repeat 16px 8px;
+}
+

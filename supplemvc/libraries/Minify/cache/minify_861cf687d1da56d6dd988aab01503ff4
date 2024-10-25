@@ -1,0 +1,235 @@
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /home/yousen5/public_html/dev3.yousendweprint.com
+currentDir : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/user
+
+*/
+
+/* user.css */
+
+/* 1   */ .page-bar .page-breadcrumb > li > a.how_to_title {
+/* 2   */     display: none;
+/* 3   */ }
+/* 4   */ 
+/* 5   */ .form-group.short .form-control {
+/* 6   */     width: 240px;
+/* 7   */ }
+/* 8   */ 
+/* 9   */ .register-form h4 {
+/* 10  */     margin-top: 32px;
+/* 11  */     color: #d20032;
+/* 12  */ }
+/* 13  */ 
+/* 14  */ .register-form h5 {
+/* 15  */     margin-top: -4px;
+/* 16  */     color: #6c9e2b;
+/* 17  */ }
+/* 18  */ 
+/* 19  */ .register-form .form-group {
+/* 20  */     margin-bottom: 10px;
+/* 21  */ }
+/* 22  */ 
+/* 23  */ .additional {
+/* 24  */     margin-top: 32px;
+/* 25  */     padding-top: 20px;
+/* 26  */     border-top: 1px solid #dddddd;
+/* 27  */ }
+/* 28  */ 
+/* 29  */ .group-buttons {
+/* 30  */     margin: 24px 0;
+/* 31  */ }
+/* 32  */ 
+/* 33  */ .file_note {
+/* 34  */     font-size: 15px;
+/* 35  */ }
+/* 36  */ 
+/* 37  */ .file_note span {
+/* 38  */     color: #6c9e2b;
+/* 39  */ }
+/* 40  */ 
+/* 41  */ .registered h3 {
+/* 42  */     margin: 0 0 24px;
+/* 43  */     font-size: 22px;
+/* 44  */     color: #6c9e2b;
+/* 45  */ }
+/* 46  */ 
+/* 47  */ .registered h5 {
+/* 48  */     margin: 20px 0 24px;
+/* 49  */     font-size: 16px;
+/* 50  */     font-weight: 500;
+
+/* user.css */
+
+/* 51  */     color: #d20032;
+/* 52  */ }
+/* 53  */ 
+/* 54  */ #wholesaler-form .alert-warning {
+/* 55  */     margin-bottom: 12px;
+/* 56  */     padding: 7px 10px 10px;
+/* 57  */     border-bottom: 1px solid #c29d0b;
+/* 58  */     font-size: 15px;
+/* 59  */     text-align: right;
+/* 60  */     color: #816807;
+/* 61  */ }
+/* 62  */ 
+/* 63  */ .content h2 {
+/* 64  */     margin-top: 0;
+/* 65  */     color: #6c9e2b;
+/* 66  */ }
+/* 67  */ 
+/* 68  */ .intro {
+/* 69  */     margin-bottom: 24px;
+/* 70  */ }
+/* 71  */ 
+/* 72  */ .background {
+/* 73  */     min-height: 560px;
+/* 74  */     /* background: url('/data/site/back_register.jpg') top right no-repeat; */
+/* 75  */ }
+/* 76  */ 
+/* 77  */ .back_orders {
+/* 78  */     /* background: url('/data/site/back_register_00.jpg') top right no-repeat; */
+/* 79  */ }
+/* 80  */ 
+/* 81  */ .back_orders .form-group {
+/* 82  */     background: url("/data/site/back_register_00.jpg") top right no-repeat;
+/* 83  */ }
+/* 84  */ 
+/* 85  */ .orders .table > tbody > tr > td,
+/* 86  */ .orders .table > tbody > tr > th,
+/* 87  */ .orders .table > tfoot > tr > td,
+/* 88  */ .orders .table > tfoot > tr > th,
+/* 89  */ .orders .table > thead > tr > td,
+/* 90  */ .orders .table > thead > tr > th {
+/* 91  */     padding: 8px 12px 8px 8px;
+/* 92  */ }
+/* 93  */ 
+/* 94  */ .orders .table .right {
+/* 95  */     text-align: right;
+/* 96  */ }
+/* 97  */ 
+/* 98  */ .orders .table .subtot {
+/* 99  */     font-weight: 600;
+/* 100 */     color: #6c9e2b;
+
+/* user.css */
+
+/* 101 */ }
+/* 102 */ 
+/* 103 */ .orders .order a,
+/* 104 */ .orders .invoice a {
+/* 105 */     font-weight: 600;
+/* 106 */ }
+/* 107 */ 
+/* 108 */ .orders .table > tbody > tr > td.invoice {
+/* 109 */     padding-right: 16px;
+/* 110 */ }
+/* 111 */ 
+/* 112 */ .addresses .table > tbody > tr > td.new,
+/* 113 */ .addresses .table > tbody > tr > td.remove {
+/* 114 */     padding-right: 16px;
+/* 115 */ }
+/* 116 */ 
+/* 117 */ .addresses .new,
+/* 118 */ .addresses .edit {
+/* 119 */     text-align: right;
+/* 120 */ }
+/* 121 */ 
+/* 122 */ .addresses .edit {
+/* 123 */     width: 24px;
+/* 124 */ }
+/* 125 */ 
+/* 126 */ .addresses .new {
+/* 127 */     font-weight: 600;
+/* 128 */ }
+/* 129 */ 
+/* 130 */ .addresses .edit i,
+/* 131 */ .addresses .new i {
+/* 132 */     font-size: 18px;
+/* 133 */     line-height: 20px;
+/* 134 */ }
+/* 135 */ 
+/* 136 */ .addresses .new i {
+/* 137 */     margin-left: 8px;
+/* 138 */ }
+/* 139 */ 
+/* 140 */ .btn-cancel {
+/* 141 */     margin-right: 8px;
+/* 142 */ }
+/* 143 */ 
+/* 144 */ .tabbable-line {
+/* 145 */     margin-bottom: 24px;
+/* 146 */ }
+/* 147 */ 
+/* 148 */ .tabbable-line > .nav-tabs > li.active {
+/* 149 */     border-bottom: 3px solid #d20032;
+/* 150 */ }
+
+/* user.css */
+
+/* 151 */ 
+/* 152 */ .tabbable-line > .nav-tabs > li {
+/* 153 */     margin-right: 4px;
+/* 154 */ }
+/* 155 */ 
+/* 156 */ .tabbable-line > .nav-tabs > li > a {
+/* 157 */     padding-left: 8px;
+/* 158 */     padding-right: 8px;
+/* 159 */ }
+/* 160 */ 
+/* 161 */ .tabbable-line > .nav-tabs > li:hover {
+/* 162 */     border-bottom: 3px solid #d20032;
+/* 163 */ }
+/* 164 */ 
+/* 165 */ .p40 {
+/* 166 */     width: 40%;
+/* 167 */ }
+/* 168 */ .p25 {
+/* 169 */     width: 25%;
+/* 170 */ }
+/* 171 */ .fbold {
+/* 172 */     font-weight: bold;
+/* 173 */ }
+/* 174 */ .mt50 {
+/* 175 */     margin-top: 50px;
+/* 176 */ }
+/* 177 */ form > div > h4:first-of-type {
+/* 178 */     margin-top: 0px !important;
+/* 179 */ }
+/* 180 */ form h4:nth-of-type(1) + h4 {
+/* 181 */     margin-top: 10px !important;
+/* 182 */     margin-bottom: 30px !important;
+/* 183 */ }
+/* 184 */ 
+/* 185 */ @media (max-width: 500px) {
+/* 186 */     form > .clearfix {
+/* 187 */         margin-bottom: 50px !important;
+/* 188 */     }
+/* 189 */ }
+/* 190 */ 
+/* 191 */ #mail_confirmed,
+/* 192 */ #mail_sent {
+/* 193 */     color: #ffffff !important;
+/* 194 */     background-color: #00a5e8;
+/* 195 */     margin-bottom: 20px;
+/* 196 */     text-align: center;
+/* 197 */ }
+/* 198 */ #mail_confirmed h2,
+/* 199 */ #mail_sent h2 {
+/* 200 */     color: #ffffff !important;
+
+/* user.css */
+
+/* 201 */     padding-top: 10px;
+/* 202 */     padding-bottom: 10px;
+/* 203 */ }
+/* 204 */ #mail_sent_1 {
+/* 205 */     font-weight: bold;
+/* 206 */ }
+/* 207 */ #mail_sent_2 {
+/* 208 */     font-size: 18px !important;
+/* 209 */ }
+/* 210 */ #ws_user_id {
+/* 211 */     margin-top: 32px !important;
+/* 212 */     margin-bottom: 0px !important;
+/* 213 */ }
+/* 214 */ 

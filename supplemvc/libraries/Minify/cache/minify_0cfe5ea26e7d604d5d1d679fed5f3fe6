@@ -1,0 +1,43 @@
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /home/yousen5/public_html/dev3.yousendweprint.com
+currentDir : /home/yousen5/public_html/dev3.yousendweprint.com/adminx/views/default/item
+
+*/
+
+/* item.css */
+
+/* 1  */ .item_list {
+/* 2  */ 	width: 360px;
+/* 3  */ }
+/* 4  */ 
+/* 5  */ 
+/* 6  */ 
+/* 7  */ /* Check List -------------------------------------------- */
+/* 8  */ 
+/* 9  */ .list_container {
+/* 10 */ 	overflow-y: scroll;
+/* 11 */ 	height: 408px;
+/* 12 */ 	border: 1px solid #cccccc;
+/* 13 */ }
+/* 14 */ 
+/* 15 */ .check_list {
+/* 16 */ 	padding: 6px 8px;
+/* 17 */ }
+/* 18 */ 
+/* 19 */ .check_list ol {
+/* 20 */ 	padding: 0 4px;
+/* 21 */ }
+/* 22 */ 
+/* 23 */ .check_list ol li {
+/* 24 */ 	float: none;
+/* 25 */ 	margin: 0;
+/* 26 */ 	padding: 3px;
+/* 27 */ 	list-style: none;
+/* 28 */ }
+/* 29 */ 
+/* 30 */ .check_list ol li label {
+/* 31 */ 	margin: 0 0 0 4px;
+/* 32 */ }
+/* 33 */ 
+/* 34 */ 

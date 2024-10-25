@@ -1,0 +1,44 @@
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /home/yousen5/public_html/dev3.yousendweprint.com
+currentDir : /home/yousen5/public_html/dev3.yousendweprint.com/adminx/views/default/home
+
+*/
+
+/* home.css */
+
+/* 1  */ .portlet.box > .chart-back {
+/* 2  */ 	background-color: #f4f4f4;
+/* 3  */ }
+/* 4  */ 
+/* 5  */ .portlet.box .map-back {
+/* 6  */ 	padding: 0;
+/* 7  */ 	background-color: #f4f4f4;
+/* 8  */ }
+/* 9  */ 
+/* 10 */ .table-scrollable > .table {
+/* 11 */ 	background-color: #f4f4f4;
+/* 12 */ }
+/* 13 */ 
+/* 14 */ .manager {
+/* 15 */ 	color: #000000;
+/* 16 */ 	font-weight: 600;
+/* 17 */ }
+/* 18 */ 
+/* 19 */ .table > thead > tr.right > th, 
+/* 20 */ .table > tbody > tr.right > td {
+/* 21 */ 	text-align: right;
+/* 22 */ }
+/* 23 */ 
+/* 24 */ .table > thead > tr.right > th.left,
+/* 25 */ .table > tbody > tr.right > td.left {
+/* 26 */ 	text-align: left;
+/* 27 */ }
+/* 28 */ 
+/* 29 */ .table > thead > tr > th, 
+/* 30 */ .table > tbody > tr > th, 
+/* 31 */ .table > tfoot > tr > th, 
+/* 32 */ .table > thead > tr > td, 
+/* 33 */ .table > tbody > tr > td, 
+/* 34 */ .table > tfoot > tr > td {}
+/* 35 */ 

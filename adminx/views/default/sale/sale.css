@@ -1,0 +1,122 @@
+.selection {
+	margin-bottom: 8px;
+}
+
+
+.sale-table > thead > tr > th {
+	padding-right: 30px;
+	border-bottom: 1px solid #ffffff !important;
+	font-weight: 400;
+	text-align: right;
+	vertical-align: top; 
+} 
+
+
+.sale-table > thead > tr > td {
+	font-size: 14px;
+	font-weight: 400;
+	color: #333333;
+	vertical-align: top;
+} 
+
+.sale-table > thead > tr > td.sep {
+	border-bottom: 1px solid #ffffff !important;
+}
+
+.tab-pane {
+	min-height: 450px;
+	padding-top: 0;
+}
+
+
+
+.sale-table > thead > tr > td.black {
+	color: #000000;
+}
+
+
+	
+#jqg-list .label.label-sm {
+	display: block;
+	width: 106px;
+	padding: 3px 6px 4px;	
+	font-size: 13px;	
+}
+
+
+
+.proof-table {
+	margin-top: 24px;
+}
+
+
+.proof-accordion {
+}
+
+.panel-default {
+	border: none;
+}
+
+.proof-accordion .panel-title a {
+    font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+
+.tabs-proof li.active > a,
+.tabs-proof li.active > a:focus {
+	background: #eeeeee;
+}
+
+
+.fileinput .uneditable-input {
+    overflow: hidden;
+	white-space: nowrap;
+}
+
+
+.wp_detail {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.date_due {
+	padding-bottom: 4px;	
+}
+
+
+#s2id_status .select2-choices {
+	padding-left: 0;
+}
+
+#s2id_status .status-choice {
+	margin-bottom: 0;
+	border: none;
+}
+
+#s2id_status .status-choice div {
+	color: #ffffff;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+#s2id_status .select2-search-choice-close {
+	background: rgba(0, 0, 0, 0) url("/adminx/views/default/_themes/metronic/assets/global/plugins/select2/select2b.png") no-repeat scroll right top;
+}
+
+#s2id_status .select2-search-choice-close:hover {
+	background-position: right -11px;
+}
+
+
+.status-option {
+	margin: 2px 4px 0 0;
+	color: #ffffff;	
+}
+
+.select2-results .status-option.select2-highlighted {
+	color: #ffffff;	
+}
+
+

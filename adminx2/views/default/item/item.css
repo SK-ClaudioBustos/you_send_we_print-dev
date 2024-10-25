@@ -1,0 +1,23 @@
+/* Check List -------------------------------------------- */
+
+.container {
+	overflow-y: scroll;
+	height: 240px;
+	margin: 12px 0 0 0;
+	border: 1px solid #cccccc;
+}
+
+.check_list {
+	padding: 6px 8px;
+}
+
+.check_list ol li {
+	float: none;
+	margin: 0;
+	padding: 3px;
+}
+
+.check_list ol li label {
+	margin: 0;
+}
+

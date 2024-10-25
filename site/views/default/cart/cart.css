@@ -1,0 +1,495 @@
+h3.sale_number {
+	margin-top: 0;
+	font-weight: 500;
+}
+
+.table-cart {
+	border-bottom: 1px solid #e7ecf1;
+}
+
+.table-cart td,
+.table-cart th {
+	font-size: 16px;
+}
+
+.table-cart > tbody > tr > td, 
+.table-cart > tbody > tr > th {
+	padding: 8px 8px;
+	border-top: none;
+}
+
+.table-cart tbody tr th {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.table-cart td.address {
+	font-size: 15px;
+}
+
+.table-cart > tbody > tr > td.job_id {
+	color: #6c9e2b;
+}
+
+
+.table-cart > tbody > tr > td.job_name {
+	/*padding-top: 16px;*/
+	padding-bottom: 0;
+	border-top: 1px solid #e7ecf1;
+}
+
+.table-cart > tbody > tr > td.job_name h4 {
+	color: #d20032;
+	margin: 0 0 12px 0;
+	font-size: 18px;
+}
+
+	.table-cart > tbody > tr > td.job_name >	h4 > b {
+		font-weight: 600;
+	}
+
+	.table-cart > tbody > tr > td.job_name > div {
+		margin-top: 12px;
+	}
+
+.table-cart > tbody > tr > td.subtot {
+	font-weight: bold;
+	color: #6c9e2b;
+}
+
+
+
+
+.table-cart > tbody > tr > td.remove {
+	width: 160px;
+}
+
+.table-cart td.empty {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.table-cart .img {
+	width: 90px;	
+}
+
+.table-cart .right {
+	/*width: 120px;*/	
+	text-align: right;
+}
+
+.details p b {
+	font-weight: normal;
+	color: #000000;
+}
+
+.details p {
+	color: #999999;
+}
+
+a.due_details {
+	font-size: 14px;
+	text-decoration: underline;
+	color: #6c9e2b;
+}
+
+.table-cart p {
+	margin-bottom: 6px;
+	font-size: 15px;
+}
+
+.table-cart a.remove {
+	font-size: 14px;
+	text-decoration: underline;
+	color: #6c9e2b;
+}
+
+
+
+
+.cart_subtot {
+	text-align: right;
+	margin-bottom: 26px;
+}
+
+.cart_subtot .plus {
+	display: block;
+	margin-top: -10px;
+	text-align: right;
+}
+
+.product_subtotal {
+	font-size: 17px;
+}
+
+#product_subtotal {
+	display: inline-block;
+	width: 120px;
+	font-size: 22px;
+	font-weight: 600;
+	color: #d20032;
+}
+
+
+#continue,
+#checkout {
+	float: right;
+	margin: 0 0 12px 8px;
+}
+
+#checkout.disabled {
+	cursor: not-allowed !important;
+	opacity: .4;
+	filter: alpha(opacity=40);
+}
+
+
+.form-body.checkout-total {
+	padding-right: 8px;
+}
+
+
+
+.table-responsive > .table-cart > tbody > tr > td {
+	white-space: normal;
+}
+
+
+
+
+
+.invoice_body {
+	float: left;
+	width: 750px;
+}
+
+.invoice_header {
+	padding: 16px 0;
+	border-top: 1px solid #aaaaaa;
+	border-bottom: 1px solid #aaaaaa;
+}
+
+.invoice_address {
+	float: left; 
+	width: 365px;
+}
+
+.invoice_address h2 {
+	margin-top: 0;
+	font-size: 20px;
+	font-weight: 500;
+	color: #D20032;
+}
+
+.invoice_logo {
+	float: right;
+	width: 240px;
+	margin: 0 0 0 20px;
+}
+
+
+.invoice {
+	margin-bottom: 20px;
+}
+	
+.invoice_to {
+	float: left; 
+	width: 365px;
+}
+	
+.invoice_to h4 {
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #D20032;
+}
+	
+.invoice .checkout_block {
+	padding-top: 12px;
+}
+	
+	
+.to_invoice { 
+	display: block;
+	margin-bottom: 18px;	
+}
+	
+.invoice_info {
+	float: right;
+	width: 240px;
+	margin: 20px 0 0 20px;
+}
+
+.invoice_info > div {
+	margin-bottom: 10px;
+	padding: 6px 12px 6px 8px;
+	background: #b6b6b6;
+	border: 1px solid #b6b6b6;
+    border-radius: 8px;
+}
+
+.invoice_info h1,
+.invoice_info h2 {
+	margin: 0;
+	font-weight: 500;
+	text-align: right;
+	color: #ffffff; 
+}
+
+.address_block {
+	padding: 0;
+}
+
+.address_block li {
+	list-style: none;
+	padding: 0;
+}
+
+.invoice_body .cart_product,
+#body_work_order .cart_product {
+	border-top: 1px solid #888888;
+}
+
+.invoice_body .table-cart p {
+	font-size: 13px;
+}
+
+.invoice_body .due_details {
+	display: none;
+}
+
+.invoice_body .form-group > div {
+	padding: 0 0 9px 0 !important;
+}
+
+.invoice_body .form-body.checkout-total {
+	padding-right: 0;
+}
+
+.invoice_body .form-body.checkout-total label {
+	padding-top: 8px;
+	text-align: right;
+}
+
+
+
+
+
+/* work order ---------------------------------------------- */
+
+.wo_title {
+	margin: 0 0 0 20px;
+}
+
+.wo_to {
+	float: left; 
+	width: 360px;
+	margin: 18px 0 16px 0;
+}
+
+.wo_to > div {
+	padding: 4px 0 5px;
+	border-bottom: 1px solid  #aaaaaa;
+	font-size: 17px;
+	color: #666666; 
+}
+
+.wo_to h1,
+.wo_to h2 {
+	margin: 0;
+	color: #666666; 
+}
+
+.wo_to h1 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+.wo_info {
+	float: right;
+	width: 180px;
+	margin: 16px 0 16px 20px;
+}
+
+.wo_info > div {
+	padding: 4px 0 !important;
+	border-bottom: 1px solid  #aaaaaa;
+}
+
+.wo_info h1,
+.wo_info h2 {
+	margin: 0 !important;
+	text-align: right;
+	line-height: 25px;
+	color: #000000 !important; 
+}
+
+.wo_info h1 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.wo_info h2 {
+	font-size: 18px;
+}
+
+.wo_info h2.source {
+	color: #D20032 !important;
+}
+
+
+
+#body_work_order .invoice_to h3 {
+	margin: 17px 0 5px;
+	font-size: 17px;
+}
+
+#body_work_order .invoice_info h1,
+#body_work_order .invoice_info h2 {
+	margin: 0;
+	color: #ffffff; 
+}
+
+#body_work_order .invoice_info h2 {
+	font-size: 20px;
+}
+
+#body_work_order .bill_block {
+	font-size: 16px !important;
+	color: #000000; 
+}
+
+#body_work_order .final {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+#body_work_order .table-cart .details p {
+}
+
+#body_work_order .table-cart td.job_id {
+	font-size: 24px !important;
+}
+
+#body_work_order .table-cart th {
+	font-size: 15px;
+	color: #000000 !important;
+}
+
+#body_work_order .table-cart td.job_name h3 {
+	margin: 0 0 4px;
+	color: #000000 !important; 
+}
+
+#body_work_order .cart_product {
+	font-size: 120%;
+	color: #000000 !important;
+}
+
+#body_work_order .details {
+	font-size: 100% !important;
+	color: #000000; 
+}
+
+#body_work_order .content {
+	padding-top: 4px;
+}
+
+#body_work_order .table-cart.pagebreak {
+	margin-bottom: 32px;
+}
+
+
+.print_type a,
+.print_type span {
+	display: inline-block;
+	padding: 6px 0 7px;
+}
+
+.print_type a.print_page {
+	float: right;
+	padding-left: 24px;
+	background: url('/data/site/print.jpg') 0 3px no-repeat;
+	font-weight: bold;
+	line-height: 14px;
+}
+
+#body_work_order td.qty,
+#body_work_order td.date_due {
+}
+
+#body_work_order .table-cart .date_due {
+	width: 140px;
+	font-weight: bold;
+	color: #60952B;
+}
+
+#body_work_order .table-cart td.details {	
+	font-size: 12px;
+}
+		
+#body_work_order .table-cart td.details p {	
+	margin: 0 0 4px 0;
+	padding	: 0 0 4px 0;
+}
+
+#new_paypal {
+	margin-top: 20px;
+}
+
+.qr_code canvas {
+	margin-top: 4px;
+}
+
+	.image {
+		padding-top: 10px;
+		border-top: 1px solid #cccccc;
+	}		
+
+	.image .frame {
+		float: left;
+		margin-right: 12px;
+		text-align: center;
+	}
+				
+	.image img {
+		border: 1px solid #aaaaaa;
+	}
+		
+	.image .note {
+		padding: 0 20px 0 16px;
+		font-size: 16px;
+	}
+				
+	.image .file {
+	}
+	
+	.image .units {
+		font-weight: 600;
+	}
+	
+	.rush {
+		color: #aa0000;
+	}
+	
+/* Coupons ---------------------------------------------- */
+.coupon_apply{
+	/* border-bottom: 1px solid #e7ecf1;
+	padding-bottom: 20px; */
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.coupon_apply > label{
+	text-align: left !important;
+	font-weight: 600;
+}
+.coupon_apply > div{
+	margin-left: 5px;
+	float: none;
+}
+#coupon + .help-block {
+	display: none;
+}

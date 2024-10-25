@@ -1,0 +1,30 @@
+.col-text :first-child {
+    margin-top: 0;
+}
+
+.content h2 {
+	font-size: 22px;
+	color: #6c9e2b;
+}
+
+.back_about {
+	margin-bottom: 20px;
+}
+.back_about_sep {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.inner_tile {
+	width: 50%;
+}
+.inner_tile img{
+	width: 100%;
+	padding: 1%;
+	height: auto;
+}
+
+@media (min-width: 1600px) {
+
+}

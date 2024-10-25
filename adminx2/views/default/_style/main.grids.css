@@ -1,0 +1,226 @@
+
+#grid_container {
+	width: 100%;
+	height: 100%;
+	background: #DDDDDD;
+	border: 1px solid #AAAAAA;
+}
+
+#grid_toolbar,
+#grid_header,
+#grid_footer {
+	height: 24px;
+}
+
+#grid_header {
+	overflow: hidden;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+#grid_footer {
+	border-top: 1px solid #AAAAAA;
+}
+
+.grid_scroll {
+	width: 100%;
+	height: 304px;
+	overflow: auto;
+	background: #F8F8F8;
+}
+
+.loader {
+	background: #F8F8F8 url(../_images/spp_grid/loader89.gif) no-repeat center center;
+}
+
+
+table.spp_grid {
+	table-layout: fixed;
+	overflow: hidden;
+	white-space: nowrap;	
+	border-collapse: collapse;
+	font-size: 100%; /* 13px */
+}
+
+table.spp_grid th,
+table.spp_grid td {
+	border: none;
+}
+
+.grid_scroll table.spp_grid {
+	border-bottom: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+table.spp_grid_header {
+	margin: 0;
+	border-left: 1px solid #DDDDDD;
+}
+
+table.spp_grid_header th,
+table.spp_grid_header td {
+	border: none;
+}
+
+table.spp_grid_header th {
+	overflow: hidden;
+	height: 20px;
+	padding: 3px 4px 1px 4px;
+	border-right: 1px solid #AAAAAA;
+	color: #000000;
+	font-weight: normal;
+	cursor: default;
+}
+
+table.spp_grid_header th div {
+	overflow: hidden;
+	height: 20px;
+}
+
+table.spp_grid tbody tr {
+	height: 26px;
+	background: #FFFFFF;
+}
+
+table.spp_grid tbody tr.row_hover,
+div.row_hover {
+	background: #EEEEFF;
+}
+
+table.spp_grid tbody tr.row_select {
+	background: #DDFFDD;
+}
+
+table.spp_grid tbody tr.row_delete {
+	background: #FFDDDD;
+}
+
+table.spp_grid tbody tr.odd {
+	background: #F0F0F0;
+}
+
+table.spp_grid td {
+	height: 20px;
+	padding: 4px 4px 1px 4px;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+table.spp_grid td div,
+table.spp_grid th div {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+table.spp_grid td.text {
+	white-space: normal;
+}
+
+table.spp_grid td a {
+	color: #000066;
+}
+
+table.spp_grid td a:hover {
+	color: #0000AA;
+}
+
+table.spp_grid td a.active {
+	color: #009900;
+}
+
+
+/* Row New ----------------------------------------- */
+
+.row_new {
+	height: 20px;
+	padding: 4px 4px 1px 4px;
+	background: #FFFFFF;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+
+.row_new a#tool_new {
+	width: auto;
+	padding: 0 0 0 20px;
+	background: url(../_images/spp_grid/tool16_new.png) no-repeat left top;
+}
+
+
+/* Full Row ----------------------------------------- */
+
+table.spp_grid tbody tr.full_row {
+	height: auto;
+}
+
+table.spp_grid tbody tr.full_row td {
+	height: auto;
+	padding: 4px 6px;
+	border-bottom: 1px dotted #999999;
+}
+
+table.spp_grid tbody tr.full_row div {
+	height: auto;
+	overflow: visible;
+	color: #777777;
+    white-space: normal;
+}
+
+
+
+/* Tools ------------------------------------------- */
+
+.tools16 a {
+	display: block;
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin: 0 3px 0 0;
+	background: no-repeat left top;
+}
+
+
+
+.tools16 a.tool_edt { background-image: url(../_images/spp_grid/tool16_edit.png); }
+.tools16 a.tool_del { background-image: url(../_images/spp_grid/tool16_delete.png); }
+.tools16 a.tool_act { background-image: url(../_images/spp_grid/tool16_active_dis.png); }
+.tools16 a.tool_act.active { background-image: url(../_images/spp_grid/tool16_active.png); }
+.tools16 a.loader { background-image: url(../_images/spp_grid/loader16.gif); }
+
+/* Order ------------------------------------------- */
+
+.order_asc {
+	background: url(../_images/spp_grid/order_asc.gif) no-repeat center 1px;
+}
+
+.order_desc {
+	background: url(../_images/spp_grid/order_desc.gif) no-repeat center 1px;
+}
+
+
+/* Paging ------------------------------------------- */
+
+#spp_grid_paging {
+	float: right;
+	width: 100px;
+	padding-top: 3px;
+}
+
+#spp_grid_paging span {
+	display: block;
+	float: left;
+	width: 8px;
+	height: 16px;
+	margin-left: 2px;
+	padding: 0 5px 0 7px;
+	border: 1px solid #999999;
+	cursor: pointer;
+	color: #000000;
+	line-height: 11px;
+}
+
+#spp_grid_paging span.disabled {
+	cursor: default;
+	color: #666666;
+	border: 1px solid #BBBBBB;
+}

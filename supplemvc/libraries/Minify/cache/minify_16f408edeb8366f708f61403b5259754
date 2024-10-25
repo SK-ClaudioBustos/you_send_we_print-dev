@@ -1,0 +1,162 @@
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /home/yousen5/public_html/dev3.yousendweprint.com
+currentDir : /home/yousen5/public_html/dev3.yousendweprint.com/adminx/views/default/productlist
+
+*/
+
+/* productlist.css */
+
+/* 1   */ .product_list {
+/* 2   */ 	width: 640px;
+/* 3   */ }
+/* 4   */ 
+/* 5   */ .select2-container--bootstrap .select2-results > .select2-results__options {
+/* 6   */ 	max-height: 480px;
+/* 7   */ }
+/* 8   */ 
+/* 9   */ 
+/* 10  */ .tab-pane {
+/* 11  */ 	min-height: 460px;
+/* 12  */ } 
+/* 13  */ 
+/* 14  */ #form {
+/* 15  */ 	height: 440px;
+/* 16  */ }
+/* 17  */ 
+/* 18  */ #discounts, 
+/* 19  */ #turnarounds {
+/* 20  */ 	height: 190px;
+/* 21  */ }
+/* 22  */ 
+/* 23  */ /* tinymce --------------------------------------------- */
+/* 24  */ 
+/* 25  */ /*.tox-tinymce-aux {
+/* 26  *| 	display: none;
+/* 27  *| }
+/* 28  *| 
+/* 29  *| .tox-tinymce-aux {
+/* 30  *|     position: relative !important;
+/* 31  *|     z-index: 1600;
+/* 32  *| }*/
+/* 33  */ 
+/* 34  */ /* fileinput ------------------------------------------- */
+/* 35  */ 
+/* 36  */ .fileinput-container {
+/* 37  */ 	height: 34px;
+/* 38  */ }
+/* 39  */ 
+/* 40  */ 
+/* 41  */ /* sorting --------------------------------------------- */
+/* 42  */ 
+/* 43  */ #sort_container,
+/* 44  */ #form_container{
+/* 45  */ 	overflow-y: scroll;
+/* 46  */ 	height: 440px;
+/* 47  */ 	margin: 0;
+/* 48  */ 	border: 1px solid #cccccc;
+/* 49  */ }
+/* 50  */ 
+
+/* productlist.css */
+
+/* 51  */ .check_list {
+/* 52  */ 	padding: 4px 12px 6px;
+/* 53  */ }
+/* 54  */ 
+/* 55  */ .check_list ol > li {
+/* 56  */ 	float: none;
+/* 57  */ 	margin: 0;
+/* 58  */ 	padding: 3px;
+/* 59  */ 	list-style: none;
+/* 60  */ }
+/* 61  */ 
+/* 62  */ 	.check_list ol li.disabled {
+/* 63  */ 		color: #bbbbbb;
+/* 64  */ 	}
+/* 65  */ 
+/* 66  */ .check_list ol li label {
+/* 67  */ 	margin: 0;
+/* 68  */ }
+/* 69  */ 
+/* 70  */ #order_list,
+/* 71  */ #form_list {
+/* 72  */ 	padding: 0;
+/* 73  */ }
+/* 74  */ 
+/* 75  */ .sortable li {
+/* 76  */ 	background: #ffffff;
+/* 77  */ 	cursor: default;
+/* 78  */ }
+/* 79  */ 
+/* 80  */ .ui-sortable-helper {
+/* 81  */ 	border: 1px dashed #cccccc;
+/* 82  */ }
+/* 83  */ 
+/* 84  */ .sortable li.sort_placeholder {
+/* 85  */ 	height: 17px;
+/* 86  */ }
+/* 87  */ 
+/* 88  */ 
+/* 89  */ form ol li.check {
+/* 90  */     padding-top: 6px;
+/* 91  */ }
+/* 92  */ 
+/* 93  */ 
+/* 94  */ #form_list > li {
+/* 95  */ 	padding: 12px 3px;
+/* 96  */ 	border-bottom: 1px solid #e3e3e3;
+/* 97  */ }
+/* 98  */ 
+/* 99  */ #form_list > li:first-child {
+/* 100 */ 	padding-top: 8px;
+
+/* productlist.css */
+
+/* 101 */ }
+/* 102 */ 
+/* 103 */ #form_list li label {
+/* 104 */ 	margin-left: 6px;
+/* 105 */ 	width: 120px;
+/* 106 */ }
+/* 107 */ 
+/* 108 */ #form_list > li .col-sm-4 {
+/* 109 */ 	padding-top: 7px;
+/* 110 */ 	padding-bottom: 7px;
+/* 111 */ }
+/* 112 */ 
+/* 113 */ #lbl_form {
+/* 114 */ 	padding-top: 19px;
+/* 115 */ }
+/* 116 */ 
+/* 117 */ 
+/* 118 */ 
+/* 119 */ 
+/* 120 */ /* Check List -------------------------------------------- */
+/* 121 */ 
+/* 122 */ .list_container {
+/* 123 */ 	overflow-y: scroll;
+/* 124 */ 	height: 440px;
+/* 125 */ 	border: 1px solid #cccccc;
+/* 126 */ }
+/* 127 */ 
+/* 128 */ .check_list {
+/* 129 */ 	padding: 6px 8px;
+/* 130 */ }
+/* 131 */ 
+/* 132 */ .check_list ol {
+/* 133 */ 	padding: 0;
+/* 134 */ }
+/* 135 */ 
+/* 136 */ .check_list ol li {
+/* 137 */ 	float: none;
+/* 138 */ 	margin: 0;
+/* 139 */ 	padding: 3px;
+/* 140 */ 	list-style: none;
+/* 141 */ }
+/* 142 */ 
+/* 143 */ .check_list ol li label {
+/* 144 */ 	margin: 0 0 0 4px;
+/* 145 */ }
+/* 146 */ 
+/* 147 */ 

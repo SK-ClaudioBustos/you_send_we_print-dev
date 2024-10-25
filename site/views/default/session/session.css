@@ -1,0 +1,19 @@
+/* login ----------------------------------------------- */
+
+.fields h3 {
+	margin-top: 30px;
+	padding-top: 16px;
+	border-top: 1px solid #e8e8e8;
+	font-size: 20px;
+	color: #5d8725;
+}
+
+.fields h3.form-title {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: none;
+}
+
+.remind-title {
+	margin-bottom: 4px;
+}

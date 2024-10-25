@@ -1,0 +1,328 @@
+#body_checkout h2 {
+	margin-top: 10px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #6c9e2b;
+	font-size: 22px;
+	color: #6c9e2b;
+}
+
+.checkout_block {
+}
+
+.checkout_block.final {
+	padding-top: 10px;
+	border-top: 1px solid #6c9e2b;
+}
+
+.disabled .help-block {
+	opacity: 1;
+}
+
+.checkout_bill .form-body,
+.checkout_pay .form-body {
+	padding-top: 4px;
+}
+
+.checkout_bill .radio-inline {
+	font-weight: 600;
+}
+
+.bill_default {
+	margin: 2px 0 0 24px;
+	padding: 8px 16px;
+	background-color: #f6f6f6;
+}
+
+
+
+.cc_info {
+	padding-left: 26px;
+}
+
+.ccard_form {
+	margin-top: 16px;
+}
+
+.lbl_paypal {
+	padding: 12px 82px 0 0;
+	background: url(/data/cart/paypal.jpg) no-repeat right 6px;
+}
+
+.lbl_ccard,
+.lbl_paypal {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.total input.form-control {
+	border: 1px solid #999999;
+	background: #999999;
+}
+
+.total_gray input.form-control {
+	border: 1px solid #cccccc;
+	background: #cccccc;
+}
+
+.total input.form-control,
+.total_gray input.form-control {
+	font-size: 18px;
+	color: #ffffff;
+}
+
+
+.grand_total label {
+	font-size: 18px;
+	font-weight: 600;
+	color: #d20032;
+}
+
+.grand_total input.form-control {
+	height: 42px;
+	padding: 8px 12px;
+	border: 1px solid #eeeeee;
+	background: #eeeeee;
+	font-size: 24px;
+	font-weight: 600;
+	color: #d20032;
+}
+
+
+#sale_total {
+	margin-bottom: 8px;
+}
+
+
+
+
+.validation_error {
+	display: none;
+	margin: 12px 0 22px;
+	padding: 4px 0 8px;
+	border: 1px solid #d20032;
+	border-width: 1px 0 1px 0;
+}
+
+.validation_error h5 {
+	font-size: 15px;
+	font-weight: 600;
+	text-align: right;
+}
+
+.validation_error p {
+	margin-bottom: 6px;
+	font-size: 13px;
+	text-align: right
+}
+
+.validation_error a {
+	font-weight: 600;
+	color: #6c9e2b;
+}
+
+
+img.loader {
+	float: right;
+	margin: 2px 12px 0 0;
+}
+
+#place_order {
+    float: right;
+    margin-left: 8px 0 0 8px;
+}
+
+
+.billed {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.done_text {
+	margin: 16px 0;
+	color: #888888;
+}
+
+.done_buttons .btn {
+	float: left;
+	width: 180px;
+	margin-bottom: 4px;
+}
+
+.done_buttons span {
+	display: block;
+	font-size: 16px;
+	color: #6c9e2b;
+}
+
+.done_buttons span.images {
+	margin: 0 0 3px;
+	font-size: 15px;
+}
+
+.done_buttons span.images b {
+	font-weight: 600;
+}
+
+.done_buttons span.txt_upload {
+	float: left;
+	margin: 5px 0 0 7px;
+}
+
+.done_buttons .badge {
+	width: 24px;
+	height: 22px;
+	margin-right: 6px;
+	padding: 3px 6px 3px 6px;
+	font-size: 13px !important;
+}
+
+.done_buttons .badge-proof {
+	padding: 4px 7px 2px 5px;
+	background-color: #ff6a00;
+}
+
+.done_buttons .loader {
+	text-align: right;
+}
+
+.done_buttons .loader img {
+	margin-top: 50px;
+}
+
+.bt_confirm.disabled {
+    cursor: not-allowed !important;
+    opacity: .4;
+    filter: alpha(opacity=40);
+}
+
+.confirm {
+	padding: 6px 0 2px;
+}
+
+.confirm > span {
+	margin-bottom: 8px;
+}
+
+.confirm > span.txt_upload {
+	color: #d20032;
+}
+
+span.confirmed {
+	font-size: 20px;
+}
+
+.confirmed span,
+.info span,
+.proof_ready span {
+	display: inline-block;
+}
+
+.confirmed .badge,
+.info .badge,
+.proof_ready .badge {
+	color: #ffffff;
+}
+
+span.info,
+span.proof_ready {
+	color: #777777;
+}
+
+.badge-green {
+	background: #6c9e2b;
+}
+
+.proof_ready a {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+
+/*proof ---------------------- */
+
+.row-comment {
+	margin-bottom: 12px;
+}
+
+.proof_item {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.proof_item h4,
+.proof_item h5 {
+	color: #d20032;
+}
+
+.proof_item h5 {
+	font-size: 15px;
+}
+
+.group-status h5 {
+	font-size: 17px;
+}
+
+.proof_item h5.approved {
+	color: #6c9e2b;
+}
+
+
+
+	.proof_item .tools a {
+		display: block;
+		padding: 1px 0 3px;
+		margin: 0 0 2px 0;
+		font-size: 15px;
+		color: #60952b;
+	}
+				
+	.proof_item .badge {
+		width: 24px;
+		height: 22px;
+		margin-right: 6px;
+		padding: 3px 6px 3px 6px;
+		font-size: 13px !important;
+	}
+
+
+	.tool_zoom .badge {  }	
+	.tool_open .badge { padding: 4px 7px 2px 5px; }
+	.tool_dwnl .badge { padding: 4px 6px 2px 6px; }
+
+
+	.disclaimers {
+		margin-bottom: 16px;
+	}
+	
+	.disclaimers h3 {
+		font-size: 17px;
+		color: #d20032;
+	}
+	
+	.disclaimers h3:first-child {
+		margin-top: 0;
+	}
+	
+	.disclaimers h3 b {
+		font-weight: 500;
+	}
+	
+	.disclaimers h3 a {
+		color: #d20032;
+		border-bottom: 1px solid;
+	}
+	
+	.disclaimers h3 a:hover {
+		text-decoration: none;
+	}
+	
+	.disclaimers h4 {
+		margin-bottom: 4px;
+		font-size: 15px;
+		color: #555555;
+	}
+	
+	.disclaimers p {
+		font-size: 13px;
+	}
+

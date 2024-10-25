@@ -1,0 +1,85 @@
+
+/* CSS Document */
+
+
+/* Tabs ---------------------------------------------------------- */
+
+.spp_tabs {
+	height: 20px;
+	margin: 0;
+	padding: 6px 16px;
+	background: #F0F0EE;
+	font-size: 108%; /* 14px */
+}
+
+.spp_tabs > li {
+	float: left;
+	margin: 0 6px 0 0;
+}
+
+.spp_tabs > li > a {
+	display: block;
+	height: 18px;
+	padding: 4px 11px;
+	color: #777777;
+}
+
+.spp_tabs > li > a:hover {
+	color: #555555;
+}
+
+.spp_tabs > li > a.current {
+	background: #FFFFFF;
+	color: #000000;
+	cursor: default;
+}
+
+.spp_panes {
+	clear: both;
+	margin: 0 0 10px 0;
+	padding: 16px 30px;
+	min-height: 400px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+
+/* Toolbar ---------------------------------------------------------- */
+
+.images_toolbar {
+	width: 682px;
+	height: 28px; 
+	margin: 12px 0 8px 0;
+}
+
+.images_toolbar a {
+	display: block;
+	float: left;
+	height: 24px;
+	margin: 0 8px 0 0;
+	padding: 6px 6px 0 32px;
+	background:  no-repeat 4px 4px;
+}
+
+.images_toolbar a:hover {
+	background-color: #DDDDDD;
+}
+
+.images_toolbar span.sep {
+	display: block;
+	float: left;
+	width: 2px;
+	height: 30px;
+	margin: 0 8px 0 0;
+	background: #DDDDDD;
+}
+
+
+.images_toolbar #tool_save { background-image: url(<?=$cfg->url->images?>/tool_save.gif); }
+.images_toolbar #tool_enable { background-image: url(<?=$cfg->url->images?>/tool_enable.gif); }
+.images_toolbar #tool_disable { background-image: url(<?=$cfg->url->images?>/tool_disable.gif); }
+.images_toolbar #tool_featured { background-image: url(<?=$cfg->url->images?>/tool_featured.gif); }
+.images_toolbar #tool_delete { background-image: url(<?=$cfg->url->images?>/tool_del_image.gif); }
+.images_toolbar #tool_select { background-image: url(<?=$cfg->url->images?>/tool_select.gif); }
+.images_toolbar #tool_unselect { background-image: url(<?=$cfg->url->images?>/tool_unselect.gif); }
+.images_toolbar #upload_cancel { background-image: url(<?=$cfg->url->images?>/tool_del_image.gif); }
+

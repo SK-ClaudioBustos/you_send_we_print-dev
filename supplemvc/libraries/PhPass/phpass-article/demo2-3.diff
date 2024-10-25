@@ -1,0 +1,111 @@
+diff -urp demo2/user-man.html demo3/user-man.html
+--- demo2/user-man.html	2010-04-09 09:00:32 +0000
++++ demo3/user-man.html	2010-04-09 09:00:40 +0000
+@@ -8,12 +8,23 @@
+ <h1>Create a new user</h1>
+ <p>
+ <form action="user-man.php" method="POST">
++<input type="hidden" name="op" value="new">
+ Username:<br>
+ <input type="text" name="user" size="60"><br>
+ Password:<br>
+ <input type="password" name="pass" size="60"><br>
+ <input type="submit" value="Create user">
+ </form>
++<h1>Log in</h1>
++<p>
++<form action="user-man.php" method="POST">
++<input type="hidden" name="op" value="login">
++Username:<br>
++<input type="text" name="user" size="60"><br>
++Password:<br>
++<input type="password" name="pass" size="60"><br>
++<input type="submit" value="Log in">
++</form>
+ <p>
+ <a href="http://www.openwall.com/phpass/">Powered by phpass</a>
+ </body>
+diff -urp demo2/user-man.php demo3/user-man.php
+--- demo2/user-man.php	2010-04-18 05:52:01 +0000
++++ demo3/user-man.php	2010-04-18 05:52:23 +0000
+@@ -40,6 +40,10 @@ function get_post_var($var)
+ 
+ header('Content-Type: text/plain');
+ 
++$op = $_POST['op'];
++if ($op !== 'new' && $op !== 'login')
++	fail('Unknown request');
++
+ $user = get_post_var('user');
+ /* Sanity-check the username, don't rely on our use of prepared statements
+  * alone to prevent attacks on the SQL server via malicious usernames. */
+@@ -57,30 +61,54 @@ if (mysqli_connect_errno())
+ 	fail('MySQL connect', mysqli_connect_error());
+ 
+ $hasher = new PasswordHash($hash_cost_log2, $hash_portable);
+-$hash = $hasher->HashPassword($pass);
+-if (strlen($hash) < 20)
+-	fail('Failed to hash new password');
+-unset($hasher);
+-
+-($stmt = $db->prepare('insert into users (user, pass) values (?, ?)'))
+-	|| fail('MySQL prepare', $db->error);
+-$stmt->bind_param('ss', $user, $hash)
+-	|| fail('MySQL bind_param', $db->error);
+-if (!$stmt->execute()) {
++
++if ($op === 'new') {
++	$hash = $hasher->HashPassword($pass);
++	if (strlen($hash) < 20)
++		fail('Failed to hash new password');
++	unset($hasher);
++
++	($stmt = $db->prepare('insert into users (user, pass) values (?, ?)'))
++		|| fail('MySQL prepare', $db->error);
++	$stmt->bind_param('ss', $user, $hash)
++		|| fail('MySQL bind_param', $db->error);
++	if (!$stmt->execute()) {
+ /* Figure out why this failed - maybe the username is already taken?
+  * It could be more reliable/portable to issue a SELECT query here.  We would
+  * definitely need to do that (or at least include code to do it) if we were
+  * supporting multiple kinds of database backends, not just MySQL.  However,
+  * the prepared statements interface we're using is MySQL-specific anyway. */
+-	if ($db->errno === 1062 /* ER_DUP_ENTRY */)
+-		fail('This username is already taken');
+-	else
+-		fail('MySQL execute', $db->error);
++		if ($db->errno === 1062 /* ER_DUP_ENTRY */)
++			fail('This username is already taken');
++		else
++			fail('MySQL execute', $db->error);
++	}
++
++	$what = 'User created';
++} else {
++	$hash = '*'; // In case the user is not found
++	($stmt = $db->prepare('select pass from users where user=?'))
++		|| fail('MySQL prepare', $db->error);
++	$stmt->bind_param('s', $user)
++		|| fail('MySQL bind_param', $db->error);
++	$stmt->execute()
++		|| fail('MySQL execute', $db->error);
++	$stmt->bind_result($hash)
++		|| fail('MySQL bind_result', $db->error);
++	if (!$stmt->fetch() && $db->errno)
++		fail('MySQL fetch', $db->error);
++
++	if ($hasher->CheckPassword($pass, $hash)) {
++		$what = 'Authentication succeeded';
++	} else {
++		$what = 'Authentication failed';
++	}
++	unset($hasher);
+ }
+ 
+ $stmt->close();
+ $db->close();
+ 
+-echo "User created\n";
++echo "$what\n";
+ 
+ ?>

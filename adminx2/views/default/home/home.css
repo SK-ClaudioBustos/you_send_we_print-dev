@@ -1,0 +1,19 @@
+/* CSS Document */
+
+
+#client_area {
+	height: 360px;
+}
+
+#enter_container {
+	float: right;
+	width: 200px;
+}
+
+#enter_container form ol li input {
+	width: 180px;
+}
+
+#enter_container form ol li input.submit_form {
+	width: 100px;
+}

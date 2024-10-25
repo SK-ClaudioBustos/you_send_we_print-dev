@@ -1,0 +1,143 @@
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /home/yousen5/public_html/dev3.yousendweprint.com
+currentDir : /home/yousen5/public_html/dev3.yousendweprint.com/adminx/views/default/product
+
+*/
+
+/* product.css */
+
+/* 1   */ .product_list {
+/* 2   */ 	width: 640px;
+/* 3   */ }
+/* 4   */ 
+/* 5   */ .select2-container--bootstrap .select2-results > .select2-results__options {
+/* 6   */ 	max-height: 480px;
+/* 7   */ }
+/* 8   */ 
+/* 9   */ .nav-tabs > li > a {
+/* 10  */ 	padding: 10px 12px;
+/* 11  */ }
+/* 12  */ 
+/* 13  */ .nav-tabs > li > a.separator {
+/* 14  */ 	margin-left: 32px;
+/* 15  */ }
+/* 16  */ 
+/* 17  */ 
+/* 18  */ 
+/* 19  */ .tab-pane {
+/* 20  */ 	min-height: 460px;
+/* 21  */ } 
+/* 22  */ 
+/* 23  */ #form {
+/* 24  */ 	height: 440px;
+/* 25  */ }
+/* 26  */ 
+/* 27  */ #discounts, 
+/* 28  */ #turnarounds {
+/* 29  */ 	height: 190px;
+/* 30  */ }
+/* 31  */ 
+/* 32  */ /* tinymce --------------------------------------------- */
+/* 33  */ 
+/* 34  */ /*.tox-tinymce-aux {
+/* 35  *| 	display: none;
+/* 36  *| }
+/* 37  *| 
+/* 38  *| .tox-tinymce-aux {
+/* 39  *|     position: relative !important;
+/* 40  *|     z-index: 1600;
+/* 41  *| }*/
+/* 42  */ 
+/* 43  */ /* fileinput ------------------------------------------- */
+/* 44  */ 
+/* 45  */ .fileinput-container {
+/* 46  */ 	height: 34px;
+/* 47  */ }
+/* 48  */ 
+/* 49  */ 
+/* 50  */ /* sorting --------------------------------------------- */
+
+/* product.css */
+
+/* 51  */ 
+/* 52  */ #sort_container,
+/* 53  */ #form_container{
+/* 54  */ 	overflow-y: scroll;
+/* 55  */ 	height: 440px;
+/* 56  */ 	margin: 0;
+/* 57  */ 	border: 1px solid #cccccc;
+/* 58  */ }
+/* 59  */ 
+/* 60  */ .check_list {
+/* 61  */ 	padding: 4px 12px 6px;
+/* 62  */ }
+/* 63  */ 
+/* 64  */ .check_list ol > li {
+/* 65  */ 	float: none;
+/* 66  */ 	margin: 0;
+/* 67  */ 	padding: 3px;
+/* 68  */ 	list-style: none;
+/* 69  */ }
+/* 70  */ 
+/* 71  */ 	.check_list ol li.disabled {
+/* 72  */ 		color: #bbbbbb;
+/* 73  */ 	}
+/* 74  */ 
+/* 75  */ .check_list ol li label {
+/* 76  */ 	margin: 0;
+/* 77  */ }
+/* 78  */ 
+/* 79  */ #order_list,
+/* 80  */ #form_list {
+/* 81  */ 	padding: 0;
+/* 82  */ }
+/* 83  */ 
+/* 84  */ .sortable li {
+/* 85  */ 	background: #ffffff;
+/* 86  */ 	cursor: default;
+/* 87  */ }
+/* 88  */ 
+/* 89  */ .ui-sortable-helper {
+/* 90  */ 	border: 1px dashed #cccccc;
+/* 91  */ }
+/* 92  */ 
+/* 93  */ .sortable li.sort_placeholder {
+/* 94  */ 	height: 17px;
+/* 95  */ }
+/* 96  */ 
+/* 97  */ 
+/* 98  */ form ol li.check {
+/* 99  */     padding-top: 6px;
+/* 100 */ }
+
+/* product.css */
+
+/* 101 */ 
+/* 102 */ 
+/* 103 */ #form_list > li {
+/* 104 */ 	padding: 12px 3px;
+/* 105 */ 	border-bottom: 1px solid #e3e3e3;
+/* 106 */ }
+/* 107 */ 
+/* 108 */ #form_list > li:first-child {
+/* 109 */ 	padding-top: 8px;
+/* 110 */ }
+/* 111 */ 
+/* 112 */ #form_list li label {
+/* 113 */ 	margin-left: 6px;
+/* 114 */ 	width: 120px;
+/* 115 */ }
+/* 116 */ 
+/* 117 */ #form_list > li .col-sm-4 {
+/* 118 */ 	padding-top: 7px;
+/* 119 */ 	padding-bottom: 7px;
+/* 120 */ }
+/* 121 */ 
+/* 122 */ #lbl_form {
+/* 123 */ 	padding-top: 19px;
+/* 124 */ }
+/* 125 */ 
+/* 126 */ 
+/* 127 */ 
+/* 128 */ 

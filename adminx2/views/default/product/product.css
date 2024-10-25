@@ -1,0 +1,75 @@
+#update {
+	width: 100px;	
+}
+
+#delete {
+	width: 100px;
+	font-weight: normal;
+}
+
+.hidden {
+	display: none;
+}
+
+
+/* Sort Order --------------------------------------------- */
+
+.check_list {
+	padding: 6px 8px;
+}
+
+.check_list ol li {
+	float: none;
+	margin: 0;
+	padding: 3px;
+}
+
+.check_list ol li label {
+	margin: 0;
+}
+
+.container {
+	overflow-y: scroll;
+	height: 240px;
+	margin: 12px 0 0 0;
+	border: 1px solid #cccccc;
+}
+
+
+.sortable li {
+	background: #ffffff;
+	font-size: 108%; /* 14px */
+	cursor: default;
+}
+
+.ui-sortable-helper {
+	border: 1px dashed #cccccc;
+}
+
+.sortable li.sort_placeholder {
+	height: 17px;
+}
+
+
+form ol li.check {
+    padding-top: 6px;
+}
+
+
+form ol.attach {
+	margin-top: 16px;
+	padding-top: 16px;
+	border-top: 1px solid #cccccc;	
+}
+
+form ol.attach span {
+	display: block;
+	overflow: hidden;
+	height: 25px;
+	padding-top: 10px;
+}
+
+form ol.attach li.check {
+    padding-top: 31px;
+}
+

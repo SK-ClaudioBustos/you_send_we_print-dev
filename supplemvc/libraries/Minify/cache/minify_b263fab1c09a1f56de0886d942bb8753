@@ -1,0 +1,1438 @@
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /home/yousen5/public_html/dev3.yousendweprint.com
+currentDir : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart
+
+*/
+
+/* cart.css */
+
+/* 1   */ h3.sale_number {
+/* 2   */ 	margin-top: 0;
+/* 3   */ 	font-weight: 500;
+/* 4   */ }
+/* 5   */ 
+/* 6   */ .table-cart {
+/* 7   */ 	border-bottom: 1px solid #e7ecf1;
+/* 8   */ }
+/* 9   */ 
+/* 10  */ .table-cart td,
+/* 11  */ .table-cart th {
+/* 12  */ 	font-size: 16px;
+/* 13  */ }
+/* 14  */ 
+/* 15  */ .table-cart > tbody > tr > td, 
+/* 16  */ .table-cart > tbody > tr > th {
+/* 17  */ 	padding: 8px 8px;
+/* 18  */ 	border-top: none;
+/* 19  */ }
+/* 20  */ 
+/* 21  */ .table-cart tbody tr th {
+/* 22  */ 	font-size: 14px;
+/* 23  */ 	font-weight: 600;
+/* 24  */ }
+/* 25  */ 
+/* 26  */ .table-cart td.address {
+/* 27  */ 	font-size: 15px;
+/* 28  */ }
+/* 29  */ 
+/* 30  */ .table-cart > tbody > tr > td.job_id {
+/* 31  */ 	color: #6c9e2b;
+/* 32  */ }
+/* 33  */ 
+/* 34  */ 
+/* 35  */ .table-cart > tbody > tr > td.job_name {
+/* 36  */ 	/*padding-top: 16px;*/
+/* 37  */ 	padding-bottom: 0;
+/* 38  */ 	border-top: 1px solid #e7ecf1;
+/* 39  */ }
+/* 40  */ 
+/* 41  */ .table-cart > tbody > tr > td.job_name h4 {
+/* 42  */ 	color: #d20032;
+/* 43  */ 	margin: 0 0 12px 0;
+/* 44  */ 	font-size: 18px;
+/* 45  */ }
+/* 46  */ 
+/* 47  */ 	.table-cart > tbody > tr > td.job_name >	h4 > b {
+/* 48  */ 		font-weight: 600;
+/* 49  */ 	}
+/* 50  */ 
+
+/* cart.css */
+
+/* 51  */ 	.table-cart > tbody > tr > td.job_name > div {
+/* 52  */ 		margin-top: 12px;
+/* 53  */ 	}
+/* 54  */ 
+/* 55  */ .table-cart > tbody > tr > td.subtot {
+/* 56  */ 	font-weight: bold;
+/* 57  */ 	color: #6c9e2b;
+/* 58  */ }
+/* 59  */ 
+/* 60  */ 
+/* 61  */ 
+/* 62  */ 
+/* 63  */ .table-cart > tbody > tr > td.remove {
+/* 64  */ 	width: 160px;
+/* 65  */ }
+/* 66  */ 
+/* 67  */ .table-cart td.empty {
+/* 68  */ 	font-size: 14px;
+/* 69  */ 	font-style: italic;
+/* 70  */ }
+/* 71  */ 
+/* 72  */ .table-cart .img {
+/* 73  */ 	width: 90px;	
+/* 74  */ }
+/* 75  */ 
+/* 76  */ .table-cart .right {
+/* 77  */ 	/*width: 120px;*/	
+/* 78  */ 	text-align: right;
+/* 79  */ }
+/* 80  */ 
+/* 81  */ .details p b {
+/* 82  */ 	font-weight: normal;
+/* 83  */ 	color: #000000;
+/* 84  */ }
+/* 85  */ 
+/* 86  */ .details p {
+/* 87  */ 	color: #999999;
+/* 88  */ }
+/* 89  */ 
+/* 90  */ a.due_details {
+/* 91  */ 	font-size: 14px;
+/* 92  */ 	text-decoration: underline;
+/* 93  */ 	color: #6c9e2b;
+/* 94  */ }
+/* 95  */ 
+/* 96  */ .table-cart p {
+/* 97  */ 	margin-bottom: 6px;
+/* 98  */ 	font-size: 15px;
+/* 99  */ }
+/* 100 */ 
+
+/* cart.css */
+
+/* 101 */ .table-cart a.remove {
+/* 102 */ 	font-size: 14px;
+/* 103 */ 	text-decoration: underline;
+/* 104 */ 	color: #6c9e2b;
+/* 105 */ }
+/* 106 */ 
+/* 107 */ 
+/* 108 */ 
+/* 109 */ 
+/* 110 */ .cart_subtot {
+/* 111 */ 	text-align: right;
+/* 112 */ 	margin-bottom: 26px;
+/* 113 */ }
+/* 114 */ 
+/* 115 */ .cart_subtot .plus {
+/* 116 */ 	display: block;
+/* 117 */ 	margin-top: -10px;
+/* 118 */ 	text-align: right;
+/* 119 */ }
+/* 120 */ 
+/* 121 */ .product_subtotal {
+/* 122 */ 	font-size: 17px;
+/* 123 */ }
+/* 124 */ 
+/* 125 */ #product_subtotal {
+/* 126 */ 	display: inline-block;
+/* 127 */ 	width: 120px;
+/* 128 */ 	font-size: 22px;
+/* 129 */ 	font-weight: 600;
+/* 130 */ 	color: #d20032;
+/* 131 */ }
+/* 132 */ 
+/* 133 */ 
+/* 134 */ #continue,
+/* 135 */ #checkout {
+/* 136 */ 	float: right;
+/* 137 */ 	margin: 0 0 12px 8px;
+/* 138 */ }
+/* 139 */ 
+/* 140 */ #checkout.disabled {
+/* 141 */ 	cursor: not-allowed !important;
+/* 142 */ 	opacity: .4;
+/* 143 */ 	filter: alpha(opacity=40);
+/* 144 */ }
+/* 145 */ 
+/* 146 */ 
+/* 147 */ .form-body.checkout-total {
+/* 148 */ 	padding-right: 8px;
+/* 149 */ }
+/* 150 */ 
+
+/* cart.css */
+
+/* 151 */ 
+/* 152 */ 
+/* 153 */ .table-responsive > .table-cart > tbody > tr > td {
+/* 154 */ 	white-space: normal;
+/* 155 */ }
+/* 156 */ 
+/* 157 */ 
+/* 158 */ 
+/* 159 */ 
+/* 160 */ 
+/* 161 */ .invoice_body {
+/* 162 */ 	float: left;
+/* 163 */ 	width: 750px;
+/* 164 */ }
+/* 165 */ 
+/* 166 */ .invoice_header {
+/* 167 */ 	padding: 16px 0;
+/* 168 */ 	border-top: 1px solid #aaaaaa;
+/* 169 */ 	border-bottom: 1px solid #aaaaaa;
+/* 170 */ }
+/* 171 */ 
+/* 172 */ .invoice_address {
+/* 173 */ 	float: left; 
+/* 174 */ 	width: 365px;
+/* 175 */ }
+/* 176 */ 
+/* 177 */ .invoice_address h2 {
+/* 178 */ 	margin-top: 0;
+/* 179 */ 	font-size: 20px;
+/* 180 */ 	font-weight: 500;
+/* 181 */ 	color: #D20032;
+/* 182 */ }
+/* 183 */ 
+/* 184 */ .invoice_logo {
+/* 185 */ 	float: right;
+/* 186 */ 	width: 240px;
+/* 187 */ 	margin: 0 0 0 20px;
+/* 188 */ }
+/* 189 */ 
+/* 190 */ 
+/* 191 */ .invoice {
+/* 192 */ 	margin-bottom: 20px;
+/* 193 */ }
+/* 194 */ 	
+/* 195 */ .invoice_to {
+/* 196 */ 	float: left; 
+/* 197 */ 	width: 365px;
+/* 198 */ }
+/* 199 */ 	
+/* 200 */ .invoice_to h4 {
+
+/* cart.css */
+
+/* 201 */ 	margin-bottom: 2px;
+/* 202 */ 	font-size: 14px;
+/* 203 */ 	font-weight: 500;
+/* 204 */ 	color: #D20032;
+/* 205 */ }
+/* 206 */ 	
+/* 207 */ .invoice .checkout_block {
+/* 208 */ 	padding-top: 12px;
+/* 209 */ }
+/* 210 */ 	
+/* 211 */ 	
+/* 212 */ .to_invoice { 
+/* 213 */ 	display: block;
+/* 214 */ 	margin-bottom: 18px;	
+/* 215 */ }
+/* 216 */ 	
+/* 217 */ .invoice_info {
+/* 218 */ 	float: right;
+/* 219 */ 	width: 240px;
+/* 220 */ 	margin: 20px 0 0 20px;
+/* 221 */ }
+/* 222 */ 
+/* 223 */ .invoice_info > div {
+/* 224 */ 	margin-bottom: 10px;
+/* 225 */ 	padding: 6px 12px 6px 8px;
+/* 226 */ 	background: #b6b6b6;
+/* 227 */ 	border: 1px solid #b6b6b6;
+/* 228 */     border-radius: 8px;
+/* 229 */ }
+/* 230 */ 
+/* 231 */ .invoice_info h1,
+/* 232 */ .invoice_info h2 {
+/* 233 */ 	margin: 0;
+/* 234 */ 	font-weight: 500;
+/* 235 */ 	text-align: right;
+/* 236 */ 	color: #ffffff; 
+/* 237 */ }
+/* 238 */ 
+/* 239 */ .address_block {
+/* 240 */ 	padding: 0;
+/* 241 */ }
+/* 242 */ 
+/* 243 */ .address_block li {
+/* 244 */ 	list-style: none;
+/* 245 */ 	padding: 0;
+/* 246 */ }
+/* 247 */ 
+/* 248 */ .invoice_body .cart_product,
+/* 249 */ #body_work_order .cart_product {
+/* 250 */ 	border-top: 1px solid #888888;
+
+/* cart.css */
+
+/* 251 */ }
+/* 252 */ 
+/* 253 */ .invoice_body .table-cart p {
+/* 254 */ 	font-size: 13px;
+/* 255 */ }
+/* 256 */ 
+/* 257 */ .invoice_body .due_details {
+/* 258 */ 	display: none;
+/* 259 */ }
+/* 260 */ 
+/* 261 */ .invoice_body .form-group > div {
+/* 262 */ 	padding: 0 0 9px 0 !important;
+/* 263 */ }
+/* 264 */ 
+/* 265 */ .invoice_body .form-body.checkout-total {
+/* 266 */ 	padding-right: 0;
+/* 267 */ }
+/* 268 */ 
+/* 269 */ .invoice_body .form-body.checkout-total label {
+/* 270 */ 	padding-top: 8px;
+/* 271 */ 	text-align: right;
+/* 272 */ }
+/* 273 */ 
+/* 274 */ 
+/* 275 */ 
+/* 276 */ 
+/* 277 */ 
+/* 278 */ /* work order ---------------------------------------------- */
+/* 279 */ 
+/* 280 */ .wo_title {
+/* 281 */ 	margin: 0 0 0 20px;
+/* 282 */ }
+/* 283 */ 
+/* 284 */ .wo_to {
+/* 285 */ 	float: left; 
+/* 286 */ 	width: 360px;
+/* 287 */ 	margin: 18px 0 16px 0;
+/* 288 */ }
+/* 289 */ 
+/* 290 */ .wo_to > div {
+/* 291 */ 	padding: 4px 0 5px;
+/* 292 */ 	border-bottom: 1px solid  #aaaaaa;
+/* 293 */ 	font-size: 17px;
+/* 294 */ 	color: #666666; 
+/* 295 */ }
+/* 296 */ 
+/* 297 */ .wo_to h1,
+/* 298 */ .wo_to h2 {
+/* 299 */ 	margin: 0;
+/* 300 */ 	color: #666666; 
+
+/* cart.css */
+
+/* 301 */ }
+/* 302 */ 
+/* 303 */ .wo_to h1 {
+/* 304 */ 	font-size: 20px;
+/* 305 */ 	font-weight: 600;
+/* 306 */ }
+/* 307 */ 
+/* 308 */ 
+/* 309 */ 
+/* 310 */ .wo_info {
+/* 311 */ 	float: right;
+/* 312 */ 	width: 180px;
+/* 313 */ 	margin: 16px 0 16px 20px;
+/* 314 */ }
+/* 315 */ 
+/* 316 */ .wo_info > div {
+/* 317 */ 	padding: 4px 0 !important;
+/* 318 */ 	border-bottom: 1px solid  #aaaaaa;
+/* 319 */ }
+/* 320 */ 
+/* 321 */ .wo_info h1,
+/* 322 */ .wo_info h2 {
+/* 323 */ 	margin: 0 !important;
+/* 324 */ 	text-align: right;
+/* 325 */ 	line-height: 25px;
+/* 326 */ 	color: #000000 !important; 
+/* 327 */ }
+/* 328 */ 
+/* 329 */ .wo_info h1 {
+/* 330 */ 	font-size: 22px;
+/* 331 */ 	font-weight: bold;
+/* 332 */ }
+/* 333 */ 
+/* 334 */ .wo_info h2 {
+/* 335 */ 	font-size: 18px;
+/* 336 */ }
+/* 337 */ 
+/* 338 */ .wo_info h2.source {
+/* 339 */ 	color: #D20032 !important;
+/* 340 */ }
+/* 341 */ 
+/* 342 */ 
+/* 343 */ 
+/* 344 */ #body_work_order .invoice_to h3 {
+/* 345 */ 	margin: 17px 0 5px;
+/* 346 */ 	font-size: 17px;
+/* 347 */ }
+/* 348 */ 
+/* 349 */ #body_work_order .invoice_info h1,
+/* 350 */ #body_work_order .invoice_info h2 {
+
+/* cart.css */
+
+/* 351 */ 	margin: 0;
+/* 352 */ 	color: #ffffff; 
+/* 353 */ }
+/* 354 */ 
+/* 355 */ #body_work_order .invoice_info h2 {
+/* 356 */ 	font-size: 20px;
+/* 357 */ }
+/* 358 */ 
+/* 359 */ #body_work_order .bill_block {
+/* 360 */ 	font-size: 16px !important;
+/* 361 */ 	color: #000000; 
+/* 362 */ }
+/* 363 */ 
+/* 364 */ #body_work_order .final {
+/* 365 */ 	margin-top: 0;
+/* 366 */ 	padding-top: 0;
+/* 367 */ }
+/* 368 */ 
+/* 369 */ 
+/* 370 */ #body_work_order .table-cart .details p {
+/* 371 */ }
+/* 372 */ 
+/* 373 */ #body_work_order .table-cart td.job_id {
+/* 374 */ 	font-size: 24px !important;
+/* 375 */ }
+/* 376 */ 
+/* 377 */ #body_work_order .table-cart th {
+/* 378 */ 	font-size: 15px;
+/* 379 */ 	color: #000000 !important;
+/* 380 */ }
+/* 381 */ 
+/* 382 */ #body_work_order .table-cart td.job_name h3 {
+/* 383 */ 	margin: 0 0 4px;
+/* 384 */ 	color: #000000 !important; 
+/* 385 */ }
+/* 386 */ 
+/* 387 */ #body_work_order .cart_product {
+/* 388 */ 	font-size: 120%;
+/* 389 */ 	color: #000000 !important;
+/* 390 */ }
+/* 391 */ 
+/* 392 */ #body_work_order .details {
+/* 393 */ 	font-size: 100% !important;
+/* 394 */ 	color: #000000; 
+/* 395 */ }
+/* 396 */ 
+/* 397 */ #body_work_order .content {
+/* 398 */ 	padding-top: 4px;
+/* 399 */ }
+/* 400 */ 
+
+/* cart.css */
+
+/* 401 */ #body_work_order .table-cart.pagebreak {
+/* 402 */ 	margin-bottom: 32px;
+/* 403 */ }
+/* 404 */ 
+/* 405 */ 
+/* 406 */ .print_type a,
+/* 407 */ .print_type span {
+/* 408 */ 	display: inline-block;
+/* 409 */ 	padding: 6px 0 7px;
+/* 410 */ }
+/* 411 */ 
+/* 412 */ .print_type a.print_page {
+/* 413 */ 	float: right;
+/* 414 */ 	padding-left: 24px;
+/* 415 */ 	background: url('/data/site/print.jpg') 0 3px no-repeat;
+/* 416 */ 	font-weight: bold;
+/* 417 */ 	line-height: 14px;
+/* 418 */ }
+/* 419 */ 
+/* 420 */ #body_work_order td.qty,
+/* 421 */ #body_work_order td.date_due {
+/* 422 */ }
+/* 423 */ 
+/* 424 */ #body_work_order .table-cart .date_due {
+/* 425 */ 	width: 140px;
+/* 426 */ 	font-weight: bold;
+/* 427 */ 	color: #60952B;
+/* 428 */ }
+/* 429 */ 
+/* 430 */ #body_work_order .table-cart td.details {	
+/* 431 */ 	font-size: 12px;
+/* 432 */ }
+/* 433 */ 		
+/* 434 */ #body_work_order .table-cart td.details p {	
+/* 435 */ 	margin: 0 0 4px 0;
+/* 436 */ 	padding	: 0 0 4px 0;
+/* 437 */ }
+/* 438 */ 
+/* 439 */ #new_paypal {
+/* 440 */ 	margin-top: 20px;
+/* 441 */ }
+/* 442 */ 
+/* 443 */ .qr_code canvas {
+/* 444 */ 	margin-top: 4px;
+/* 445 */ }
+/* 446 */ 
+/* 447 */ 	.image {
+/* 448 */ 		padding-top: 10px;
+/* 449 */ 		border-top: 1px solid #cccccc;
+/* 450 */ 	}		
+
+/* cart.css */
+
+/* 451 */ 
+/* 452 */ 	.image .frame {
+/* 453 */ 		float: left;
+/* 454 */ 		margin-right: 12px;
+/* 455 */ 		text-align: center;
+/* 456 */ 	}
+/* 457 */ 				
+/* 458 */ 	.image img {
+/* 459 */ 		border: 1px solid #aaaaaa;
+/* 460 */ 	}
+/* 461 */ 		
+/* 462 */ 	.image .note {
+/* 463 */ 		padding: 0 20px 0 16px;
+/* 464 */ 		font-size: 16px;
+/* 465 */ 	}
+/* 466 */ 				
+/* 467 */ 	.image .file {
+/* 468 */ 	}
+/* 469 */ 	
+/* 470 */ 	.image .units {
+/* 471 */ 		font-weight: 600;
+/* 472 */ 	}
+/* 473 */ 	
+/* 474 */ 	.rush {
+/* 475 */ 		color: #aa0000;
+/* 476 */ 	}
+/* 477 */ 	
+/* 478 */ /* Coupons ---------------------------------------------- */
+/* 479 */ .coupon_apply{
+/* 480 */ 	/* border-bottom: 1px solid #e7ecf1;
+/* 481 *| 	padding-bottom: 20px; */
+/* 482 */ 	margin-left: 0px !important;
+/* 483 */ 	margin-right: 0px !important;
+/* 484 */ }
+/* 485 */ .coupon_apply > label{
+/* 486 */ 	text-align: left !important;
+/* 487 */ 	font-weight: 600;
+/* 488 */ }
+/* 489 */ .coupon_apply > div{
+/* 490 */ 	margin-left: 5px;
+/* 491 */ 	float: none;
+/* 492 */ }
+/* 493 */ #coupon + .help-block {
+/* 494 */ 	display: none;
+/* 495 */ }
+/* 496 */ 
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /home/yousen5/public_html/dev3.yousendweprint.com
+currentDir : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart
+
+*/
+
+/* checkout.css */
+
+/* 1   */ #body_checkout h2 {
+/* 2   */ 	margin-top: 10px;
+/* 3   */ 	padding-bottom: 6px;
+/* 4   */ 	border-bottom: 1px solid #6c9e2b;
+/* 5   */ 	font-size: 22px;
+/* 6   */ 	color: #6c9e2b;
+/* 7   */ }
+/* 8   */ 
+/* 9   */ .checkout_block {
+/* 10  */ }
+/* 11  */ 
+/* 12  */ .checkout_block.final {
+/* 13  */ 	padding-top: 10px;
+/* 14  */ 	border-top: 1px solid #6c9e2b;
+/* 15  */ }
+/* 16  */ 
+/* 17  */ .disabled .help-block {
+/* 18  */ 	opacity: 1;
+/* 19  */ }
+/* 20  */ 
+/* 21  */ .checkout_bill .form-body,
+/* 22  */ .checkout_pay .form-body {
+/* 23  */ 	padding-top: 4px;
+/* 24  */ }
+/* 25  */ 
+/* 26  */ .checkout_bill .radio-inline {
+/* 27  */ 	font-weight: 600;
+/* 28  */ }
+/* 29  */ 
+/* 30  */ .bill_default {
+/* 31  */ 	margin: 2px 0 0 24px;
+/* 32  */ 	padding: 8px 16px;
+/* 33  */ 	background-color: #f6f6f6;
+/* 34  */ }
+/* 35  */ 
+/* 36  */ 
+/* 37  */ 
+/* 38  */ .cc_info {
+/* 39  */ 	padding-left: 26px;
+/* 40  */ }
+/* 41  */ 
+/* 42  */ .ccard_form {
+/* 43  */ 	margin-top: 16px;
+/* 44  */ }
+/* 45  */ 
+/* 46  */ .lbl_paypal {
+/* 47  */ 	padding: 12px 82px 0 0;
+/* 48  */ 	background: url(/data/cart/paypal.jpg) no-repeat right 6px;
+/* 49  */ }
+/* 50  */ 
+
+/* checkout.css */
+
+/* 51  */ .lbl_ccard,
+/* 52  */ .lbl_paypal {
+/* 53  */ 	font-size: 15px;
+/* 54  */ 	font-weight: 600;
+/* 55  */ }
+/* 56  */ 
+/* 57  */ .total input.form-control {
+/* 58  */ 	border: 1px solid #999999;
+/* 59  */ 	background: #999999;
+/* 60  */ }
+/* 61  */ 
+/* 62  */ .total_gray input.form-control {
+/* 63  */ 	border: 1px solid #cccccc;
+/* 64  */ 	background: #cccccc;
+/* 65  */ }
+/* 66  */ 
+/* 67  */ .total input.form-control,
+/* 68  */ .total_gray input.form-control {
+/* 69  */ 	font-size: 18px;
+/* 70  */ 	color: #ffffff;
+/* 71  */ }
+/* 72  */ 
+/* 73  */ 
+/* 74  */ .grand_total label {
+/* 75  */ 	font-size: 18px;
+/* 76  */ 	font-weight: 600;
+/* 77  */ 	color: #d20032;
+/* 78  */ }
+/* 79  */ 
+/* 80  */ .grand_total input.form-control {
+/* 81  */ 	height: 42px;
+/* 82  */ 	padding: 8px 12px;
+/* 83  */ 	border: 1px solid #eeeeee;
+/* 84  */ 	background: #eeeeee;
+/* 85  */ 	font-size: 24px;
+/* 86  */ 	font-weight: 600;
+/* 87  */ 	color: #d20032;
+/* 88  */ }
+/* 89  */ 
+/* 90  */ 
+/* 91  */ #sale_total {
+/* 92  */ 	margin-bottom: 8px;
+/* 93  */ }
+/* 94  */ 
+/* 95  */ 
+/* 96  */ 
+/* 97  */ 
+/* 98  */ .validation_error {
+/* 99  */ 	display: none;
+/* 100 */ 	margin: 12px 0 22px;
+
+/* checkout.css */
+
+/* 101 */ 	padding: 4px 0 8px;
+/* 102 */ 	border: 1px solid #d20032;
+/* 103 */ 	border-width: 1px 0 1px 0;
+/* 104 */ }
+/* 105 */ 
+/* 106 */ .validation_error h5 {
+/* 107 */ 	font-size: 15px;
+/* 108 */ 	font-weight: 600;
+/* 109 */ 	text-align: right;
+/* 110 */ }
+/* 111 */ 
+/* 112 */ .validation_error p {
+/* 113 */ 	margin-bottom: 6px;
+/* 114 */ 	font-size: 13px;
+/* 115 */ 	text-align: right
+/* 116 */ }
+/* 117 */ 
+/* 118 */ .validation_error a {
+/* 119 */ 	font-weight: 600;
+/* 120 */ 	color: #6c9e2b;
+/* 121 */ }
+/* 122 */ 
+/* 123 */ 
+/* 124 */ img.loader {
+/* 125 */ 	float: right;
+/* 126 */ 	margin: 2px 12px 0 0;
+/* 127 */ }
+/* 128 */ 
+/* 129 */ #place_order {
+/* 130 */     float: right;
+/* 131 */     margin-left: 8px 0 0 8px;
+/* 132 */ }
+/* 133 */ 
+/* 134 */ 
+/* 135 */ .billed {
+/* 136 */ 	font-size: 15px;
+/* 137 */ 	font-weight: 400;
+/* 138 */ }
+/* 139 */ 
+/* 140 */ .done_text {
+/* 141 */ 	margin: 16px 0;
+/* 142 */ 	color: #888888;
+/* 143 */ }
+/* 144 */ 
+/* 145 */ .done_buttons .btn {
+/* 146 */ 	float: left;
+/* 147 */ 	width: 180px;
+/* 148 */ 	margin-bottom: 4px;
+/* 149 */ }
+/* 150 */ 
+
+/* checkout.css */
+
+/* 151 */ .done_buttons span {
+/* 152 */ 	display: block;
+/* 153 */ 	font-size: 16px;
+/* 154 */ 	color: #6c9e2b;
+/* 155 */ }
+/* 156 */ 
+/* 157 */ .done_buttons span.images {
+/* 158 */ 	margin: 0 0 3px;
+/* 159 */ 	font-size: 15px;
+/* 160 */ }
+/* 161 */ 
+/* 162 */ .done_buttons span.images b {
+/* 163 */ 	font-weight: 600;
+/* 164 */ }
+/* 165 */ 
+/* 166 */ .done_buttons span.txt_upload {
+/* 167 */ 	float: left;
+/* 168 */ 	margin: 5px 0 0 7px;
+/* 169 */ }
+/* 170 */ 
+/* 171 */ .done_buttons .badge {
+/* 172 */ 	width: 24px;
+/* 173 */ 	height: 22px;
+/* 174 */ 	margin-right: 6px;
+/* 175 */ 	padding: 3px 6px 3px 6px;
+/* 176 */ 	font-size: 13px !important;
+/* 177 */ }
+/* 178 */ 
+/* 179 */ .done_buttons .badge-proof {
+/* 180 */ 	padding: 4px 7px 2px 5px;
+/* 181 */ 	background-color: #ff6a00;
+/* 182 */ }
+/* 183 */ 
+/* 184 */ .done_buttons .loader {
+/* 185 */ 	text-align: right;
+/* 186 */ }
+/* 187 */ 
+/* 188 */ .done_buttons .loader img {
+/* 189 */ 	margin-top: 50px;
+/* 190 */ }
+/* 191 */ 
+/* 192 */ .bt_confirm.disabled {
+/* 193 */     cursor: not-allowed !important;
+/* 194 */     opacity: .4;
+/* 195 */     filter: alpha(opacity=40);
+/* 196 */ }
+/* 197 */ 
+/* 198 */ .confirm {
+/* 199 */ 	padding: 6px 0 2px;
+/* 200 */ }
+
+/* checkout.css */
+
+/* 201 */ 
+/* 202 */ .confirm > span {
+/* 203 */ 	margin-bottom: 8px;
+/* 204 */ }
+/* 205 */ 
+/* 206 */ .confirm > span.txt_upload {
+/* 207 */ 	color: #d20032;
+/* 208 */ }
+/* 209 */ 
+/* 210 */ span.confirmed {
+/* 211 */ 	font-size: 20px;
+/* 212 */ }
+/* 213 */ 
+/* 214 */ .confirmed span,
+/* 215 */ .info span,
+/* 216 */ .proof_ready span {
+/* 217 */ 	display: inline-block;
+/* 218 */ }
+/* 219 */ 
+/* 220 */ .confirmed .badge,
+/* 221 */ .info .badge,
+/* 222 */ .proof_ready .badge {
+/* 223 */ 	color: #ffffff;
+/* 224 */ }
+/* 225 */ 
+/* 226 */ span.info,
+/* 227 */ span.proof_ready {
+/* 228 */ 	color: #777777;
+/* 229 */ }
+/* 230 */ 
+/* 231 */ .badge-green {
+/* 232 */ 	background: #6c9e2b;
+/* 233 */ }
+/* 234 */ 
+/* 235 */ .proof_ready a {
+/* 236 */ 	font-weight: 600;
+/* 237 */ 	text-decoration: underline;
+/* 238 */ }
+/* 239 */ 
+/* 240 */ 
+/* 241 */ /*proof ---------------------- */
+/* 242 */ 
+/* 243 */ .row-comment {
+/* 244 */ 	margin-bottom: 12px;
+/* 245 */ }
+/* 246 */ 
+/* 247 */ .proof_item {
+/* 248 */ 	padding-bottom: 16px;
+/* 249 */ 	border-bottom: 1px solid #eeeeee;
+/* 250 */ }
+
+/* checkout.css */
+
+/* 251 */ 
+/* 252 */ .proof_item h4,
+/* 253 */ .proof_item h5 {
+/* 254 */ 	color: #d20032;
+/* 255 */ }
+/* 256 */ 
+/* 257 */ .proof_item h5 {
+/* 258 */ 	font-size: 15px;
+/* 259 */ }
+/* 260 */ 
+/* 261 */ .group-status h5 {
+/* 262 */ 	font-size: 17px;
+/* 263 */ }
+/* 264 */ 
+/* 265 */ .proof_item h5.approved {
+/* 266 */ 	color: #6c9e2b;
+/* 267 */ }
+/* 268 */ 
+/* 269 */ 
+/* 270 */ 
+/* 271 */ 	.proof_item .tools a {
+/* 272 */ 		display: block;
+/* 273 */ 		padding: 1px 0 3px;
+/* 274 */ 		margin: 0 0 2px 0;
+/* 275 */ 		font-size: 15px;
+/* 276 */ 		color: #60952b;
+/* 277 */ 	}
+/* 278 */ 				
+/* 279 */ 	.proof_item .badge {
+/* 280 */ 		width: 24px;
+/* 281 */ 		height: 22px;
+/* 282 */ 		margin-right: 6px;
+/* 283 */ 		padding: 3px 6px 3px 6px;
+/* 284 */ 		font-size: 13px !important;
+/* 285 */ 	}
+/* 286 */ 
+/* 287 */ 
+/* 288 */ 	.tool_zoom .badge {  }	
+/* 289 */ 	.tool_open .badge { padding: 4px 7px 2px 5px; }
+/* 290 */ 	.tool_dwnl .badge { padding: 4px 6px 2px 6px; }
+/* 291 */ 
+/* 292 */ 
+/* 293 */ 	.disclaimers {
+/* 294 */ 		margin-bottom: 16px;
+/* 295 */ 	}
+/* 296 */ 	
+/* 297 */ 	.disclaimers h3 {
+/* 298 */ 		font-size: 17px;
+/* 299 */ 		color: #d20032;
+/* 300 */ 	}
+
+/* checkout.css */
+
+/* 301 */ 	
+/* 302 */ 	.disclaimers h3:first-child {
+/* 303 */ 		margin-top: 0;
+/* 304 */ 	}
+/* 305 */ 	
+/* 306 */ 	.disclaimers h3 b {
+/* 307 */ 		font-weight: 500;
+/* 308 */ 	}
+/* 309 */ 	
+/* 310 */ 	.disclaimers h3 a {
+/* 311 */ 		color: #d20032;
+/* 312 */ 		border-bottom: 1px solid;
+/* 313 */ 	}
+/* 314 */ 	
+/* 315 */ 	.disclaimers h3 a:hover {
+/* 316 */ 		text-decoration: none;
+/* 317 */ 	}
+/* 318 */ 	
+/* 319 */ 	.disclaimers h4 {
+/* 320 */ 		margin-bottom: 4px;
+/* 321 */ 		font-size: 15px;
+/* 322 */ 		color: #555555;
+/* 323 */ 	}
+/* 324 */ 	
+/* 325 */ 	.disclaimers p {
+/* 326 */ 		font-size: 13px;
+/* 327 */ 	}
+/* 328 */ 
+/* 329 */ 
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /home/yousen5/public_html/dev3.yousendweprint.com
+currentDir : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart
+
+file-relative URI  : ../_images/back_product_apply.jpg
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/back_product_apply.jpg
+docroot stripped   : /site/views/default/cart/../_images/back_product_apply.jpg
+traversals removed : /site/views/default/_images/back_product_apply.jpg
+
+file-relative URI  : ../_images/back_input_readonly.jpg
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/back_input_readonly.jpg
+docroot stripped   : /site/views/default/cart/../_images/back_input_readonly.jpg
+traversals removed : /site/views/default/_images/back_input_readonly.jpg
+
+file-relative URI  : ../_images/back_upload_more.jpg
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/back_upload_more.jpg
+docroot stripped   : /site/views/default/cart/../_images/back_upload_more.jpg
+traversals removed : /site/views/default/_images/back_upload_more.jpg
+
+file-relative URI  : ../_images/back_upload_more_disabled.jpg
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/back_upload_more_disabled.jpg
+docroot stripped   : /site/views/default/cart/../_images/back_upload_more_disabled.jpg
+traversals removed : /site/views/default/_images/back_upload_more_disabled.jpg
+
+file-relative URI  : ../_images/back_upload_more.jpg
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/back_upload_more.jpg
+docroot stripped   : /site/views/default/cart/../_images/back_upload_more.jpg
+traversals removed : /site/views/default/_images/back_upload_more.jpg
+
+file-relative URI  : ../_images/back_upload_cancel.jpg
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/back_upload_cancel.jpg
+docroot stripped   : /site/views/default/cart/../_images/back_upload_cancel.jpg
+traversals removed : /site/views/default/_images/back_upload_cancel.jpg
+
+*/
+
+/* upload.css */
+
+/* 1   */ /* Upload ------------------------------------------------- */
+/* 2   */ 
+/* 3   */ dl.job_name {
+/* 4   */ 	margin: 0 0 16px 0;
+/* 5   */ }
+/* 6   */ 
+/* 7   */ 	.job_name dt {
+/* 8   */ 		width: 90px;
+/* 9   */ 	}
+/* 10  */ 	
+/* 11  */ 		.job_name dt label {
+/* 12  */ 			padding: 1px 0 0 0;
+/* 13  */ 			font-size: 93%; /* 12px */
+/* 14  */ 		}
+/* 15  */ 		
+/* 16  */ 	.job_name dd {
+/* 17  */ 		width: 322px;
+/* 18  */ 	}
+/* 19  */ 	
+/* 20  */ 	.product_form label.job_error,
+/* 21  */ 	.product_form label.job_lenght {
+/* 22  */ 		display: block;
+/* 23  */ 		float: left;
+/* 24  */ 		font-weight: normal;
+/* 25  */ 	}
+/* 26  */ 
+/* 27  */ 	.product_form label.job_error {
+/* 28  */ 		display: none;
+/* 29  */ 		color: #D20032;
+/* 30  */ 	}
+/* 31  */ 
+/* 32  */ 	#apply {
+/* 33  */ 		display: block;
+/* 34  */ 	    float: right;
+/* 35  */ 	    height: 25px;
+/* 36  */ 	    margin: -5px 0 0 0;
+/* 37  */ 		padding: 6px 0 0 0;
+/* 38  */ 	    width: 81px;
+/* 39  */ 	    background: url(/site/views/default/_images/back_product_apply.jpg) no-repeat;
+/* 40  */ 		font-size: 93%; /* 12px */
+/* 41  */ 		font-weight: bold;
+/* 42  */ 		color: #D20032;
+/* 43  */ 		text-align: center;
+/* 44  */ 	}
+/* 45  */ 	
+/* 46  */ 	.job_name .readonly input {
+/* 47  */ 		background: url(/site/views/default/_images/back_input_readonly.jpg) no-repeat;
+/* 48  */ 		color: #888888;
+/* 49  */ 	}
+/* 50  */ 	
+
+/* upload.css */
+
+/* 51  */ 	.job_name .readonly #apply {
+/* 52  */ 		color: #aaaaaa;
+/* 53  */ 		cursor: default;
+/* 54  */ 	}
+/* 55  */ 	
+/* 56  */ 
+/* 57  */ .agree {
+/* 58  */ 	margin: 12px 0;
+/* 59  */ }
+/* 60  */ 
+/* 61  */ 	#uniform-agree {
+/* 62  */ 	}
+/* 63  */ 
+/* 64  */ 	.agree label {
+/* 65  */ 		font-weight: normal;
+/* 66  */ 		color: #6c9e2b;
+/* 67  */ 	}
+/* 68  */ 	
+/* 69  */ 
+/* 70  */ .upload_local h3,
+/* 71  */ .upload_big h3 {
+/* 72  */ 	height: 24px;
+/* 73  */ 	margin: 10px 0 0 0;
+/* 74  */ 	font-size: 16px;
+/* 75  */ 	color: #6c9e2b;
+/* 76  */ }
+/* 77  */ 
+/* 78  */ .upload_local h3 {
+/* 79  */ 	margin: 14px 0 0 0;
+/* 80  */ }
+/* 81  */ 
+/* 82  */ .upload_local h5,
+/* 83  */ .upload_big h5 {
+/* 84  */ 	margin: 0 0 4px 0;
+/* 85  */ 	color: #d20032;
+/* 86  */ }
+/* 87  */ 
+/* 88  */ .upload_local b {
+/* 89  */ 	font-weight: 600;
+/* 90  */ }
+/* 91  */ 
+/* 92  */ .upload_big h5 {
+/* 93  */ 	margin: 4px 0 4px 0;
+/* 94  */ }
+/* 95  */ 
+/* 96  */ .upload_big a.big_a {
+/* 97  */ 	display: inline-block;
+/* 98  */ 	padding: 4px 0 2px 26px;
+/* 99  */ 	background: url(/data/cart/upload_warning.jpg) no-repeat;
+/* 100 */ 	font-weight: 500;
+
+/* upload.css */
+
+/* 101 */ 	color: #6c9e2b;
+/* 102 */ }
+/* 103 */ 
+/* 104 */ .upload_type {
+/* 105 */ 	margin-bottom: 16px;
+/* 106 */ }
+/* 107 */ 
+/* 108 */ .upload_type a.more {
+/* 109 */ 	color: #6c9e2b;
+/* 110 */ }
+/* 111 */ 
+/* 112 */ a.prepare,
+/* 113 */ a.design {
+/* 114 */ 	display: block;
+/* 115 */ 	margin: 12px 0;
+/* 116 */ 	font-size: 15px;
+/* 117 */ 	color: #6c9e2b;
+/* 118 */ }
+/* 119 */ 
+/* 120 */ a.prepare .fa-info-circle {
+/* 121 */ 	font-size: 17px !important;
+/* 122 */ }
+/* 123 */ 
+/* 124 */ a.prepare .fa-external-link {
+/* 125 */ 	font-size: 14px !important;
+/* 126 */ }
+/* 127 */ 
+/* 128 */ 
+/* 129 */ a.design {
+/* 130 */ }
+/* 131 */ 
+/* 132 */ .upload_buttons {
+/* 133 */ 	margin: 12px 0 0 0;
+/* 134 */ 	padding: 0 0 10px 0;
+/* 135 */ 	border-bottom: 1px solid #f0f0f0;
+/* 136 */ }
+/* 137 */ 
+/* 138 */ .upload_buttons .right {
+/* 139 */ 	padding-top: 8px;
+/* 140 */ }
+/* 141 */ 
+/* 142 */ .upload_buttons .right span {
+/* 143 */ 	display: none;
+/* 144 */ 	font-size: 85%; /* 11px */
+/* 145 */ 	font-weight: bold;	
+/* 146 */ 	color: #d20202;
+/* 147 */ }
+/* 148 */ 
+/* 149 */ a.upload_file,
+/* 150 */ a.upload_more {
+
+/* upload.css */
+
+/* 151 */ 	display: block;
+/* 152 */ 	height: 20px;
+/* 153 */ 	padding: 8px 0;
+/* 154 */ 	color: #ffffff;	
+/* 155 */ 	text-align: center;
+/* 156 */ 	font-weight: bold;
+/* 157 */ }
+/* 158 */ 
+/* 159 */ a.upload_more {
+/* 160 */ 	display: none;
+/* 161 */ }
+/* 162 */ 
+/* 163 */ .fileinput-button {
+/* 164 */ 	font-weight: 600;
+/* 165 */ }
+/* 166 */ 
+/* 167 */ .fileinput-button .fa {
+/* 168 */ 	font-size: 16px;
+/* 169 */ }
+/* 170 */ 
+/* 171 */ /*.fileinput-button {
+/* 172 *| 	display: block;
+/* 173 *| 	width: 185px;
+/* 174 *| 	height: 27px;
+/* 175 *| 	padding: 7px 0 0;
+/* 176 *| 	background: url(/site/views/default/_images/back_upload_more.jpg) no-repeat;
+/* 177 *| 	cursor: pointer;
+/* 178 *| 	font-size: 110%;
+/* 179 *| 	font-weight: bold;
+/* 180 *| 	color: #ffffff;
+/* 181 *| 	text-align: center;
+/* 182 *| }
+/* 183 *| 
+/* 184 *| .fileinput-button.disabled {
+/* 185 *| 	pointer-events: none;
+/* 186 *| 	cursor: not-allowed;
+/* 187 *| 	background: url(/site/views/default/_images/back_upload_more_disabled.jpg) no-repeat;
+/* 188 *| 	color: #eeeeee;
+/* 189 *| }*/
+/* 190 */ 
+/* 191 */ a.upload_more {
+/* 192 */ 	width: 185px;
+/* 193 */ 	background: url(/site/views/default/_images/back_upload_more.jpg) no-repeat;
+/* 194 */ }
+/* 195 */ 	
+/* 196 */ a.upload_cancel {
+/* 197 */ 	display: none;
+/* 198 */ 	/*float: right;
+/* 199 *| 	width: 68px;
+/* 200 *| 	height: 15px;
+
+/* upload.css */
+
+/* 201 *| 	margin: 2px 0 0 0;
+/* 202 *| 	padding: 7px 28px 6px 0;
+/* 203 *| 	background: url(/site/views/default/_images/back_upload_cancel.jpg) no-repeat;
+/* 204 *| 	font-size: 85%; s
+/* 205 *| 	color: #d20202;
+/* 206 *| 	text-align: right;*/
+/* 207 */ }
+/* 208 */ 
+/* 209 */ 
+/* 210 */ .upload_submit {
+/* 211 */ }
+/* 212 */ 		
+/* 213 */ .upload_submit .submit {
+/* 214 */ 	float: right;
+/* 215 */ 	margin: 18px 0;
+/* 216 */ 	color: #d9d9d9;
+/* 217 */ 	background-position: right top;
+/* 218 */ 	background-repeat: no-repeat;
+/* 219 */ 	cursor: default;	
+/* 220 */ }
+/* 221 */ 
+/* 222 */ .upload_submit .submit:hover {
+/* 223 */ 	color: #d9d9d9;
+/* 224 */ }
+/* 225 */ 
+/* 226 */ 
+/* 227 */ .upload_submit .active {
+/* 228 */ 	background-position: right -44px;
+/* 229 */ 	color: #D20032;
+/* 230 */ 	cursor: pointer;	
+/* 231 */ }
+/* 232 */ 
+/* 233 */ .upload_submit .active:hover {
+/* 234 */ 	color: #fb1f52; 
+/* 235 */ }
+/* 236 */ 
+/* 237 */ #sides {
+/* 238 */ 	font-size: 100%;
+/* 239 */ 	color: #d20032;
+/* 240 */ }
+/* 241 */ 
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /home/yousen5/public_html/dev3.yousendweprint.com
+currentDir : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart
+
+file-relative URI  : ../_images/uploadify/upload_files.jpg
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/uploadify/upload_files.jpg
+docroot stripped   : /site/views/default/cart/../_images/uploadify/upload_files.jpg
+traversals removed : /site/views/default/_images/uploadify/upload_files.jpg
+
+file-relative URI  : ../_images/uploadify/upload_other.jpg
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/uploadify/upload_other.jpg
+docroot stripped   : /site/views/default/cart/../_images/uploadify/upload_other.jpg
+traversals removed : /site/views/default/_images/uploadify/upload_other.jpg
+
+file-relative URI  : ../_images/success.png
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/success.png
+docroot stripped   : /site/views/default/cart/../_images/success.png
+traversals removed : /site/views/default/_images/success.png
+
+file-relative URI  : ../_images/upload_textarea.jpg
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/upload_textarea.jpg
+docroot stripped   : /site/views/default/cart/../_images/upload_textarea.jpg
+traversals removed : /site/views/default/_images/upload_textarea.jpg
+
+file-relative URI  : ../_images/upload_remove.jpg
+path prepended     : /home/yousen5/public_html/dev3.yousendweprint.com/site/views/default/cart/../_images/upload_remove.jpg
+docroot stripped   : /site/views/default/cart/../_images/upload_remove.jpg
+traversals removed : /site/views/default/_images/upload_remove.jpg
+
+*/
+
+/* uploadify.css */
+
+/* 1   */ /*
+/* 2   *| Uploadify v2.1.0
+/* 3   *| Release Date: August 24, 2009
+/* 4   *| 
+/* 5   *| Copyright (c) 2009 Ronnie Garcia, Travis Nickels
+/* 6   *| 
+/* 7   *| Permission is hereby granted, free of charge, to any person obtaining a copy
+/* 8   *| of this software and associated documentation files (the "Software"), to deal
+/* 9   *| in the Software without restriction, including without limitation the rights
+/* 10  *| to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+/* 11  *| copies of the Software, and to permit persons to whom the Software is
+/* 12  *| furnished to do so, subject to the following conditions:
+/* 13  *| 
+/* 14  *| The above copyright notice and this permission notice shall be included in
+/* 15  *| all copies or substantial portions of the Software.
+/* 16  *| 
+/* 17  *| THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+/* 18  *| IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+/* 19  *| FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+/* 20  *| AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+/* 21  *| LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+/* 22  *| OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+/* 23  *| THE SOFTWARE.
+/* 24  *| */
+/* 25  */ 
+/* 26  */ 
+/* 27  */ /* Button ---------------------------------------------------------------------- */
+/* 28  */ 
+/* 29  */ 
+/* 30  */ .uploadify-button {
+/* 31  */ 	background: url(/site/views/default/_images/uploadify/upload_files.jpg) no-repeat;
+/* 32  */ }
+/* 33  */ 
+/* 34  */ .uploadify:hover .uploadify-button {
+/* 35  */ 	background-position: 0 -38px;
+/* 36  */ }
+/* 37  */ 
+/* 38  */ .uploadify-button.disabled {
+/* 39  */ 	background-position: 0 -76px;
+/* 40  */ 	cursor: default;
+/* 41  */ }
+/* 42  */ 
+/* 43  */ .uploadify:hover .uploadify-button.disabled {
+/* 44  */ 	background-position: 0 -76px;
+/* 45  */ }
+/* 46  */ 
+/* 47  */ 
+/* 48  */ .uploadify-button.other {
+/* 49  */ 	background: url(/site/views/default/_images/uploadify/upload_other.jpg) no-repeat;
+/* 50  */ }
+
+/* uploadify.css */
+
+/* 51  */ 
+/* 52  */ .uploadify-button.other.disabled {
+/* 53  */ 	background-position: 0 -76px;
+/* 54  */ }
+/* 55  */ 
+/* 56  */ 
+/* 57  */ /* Queue ----------------------------------------------------------------------- */
+/* 58  */ 
+/* 59  */ .uploadify-queue-item {
+/* 60  */ 	padding: 16px 0;
+/* 61  */ 	border-bottom: 1px solid #eeeeee;	
+/* 62  */ }
+/* 63  */ 
+/* 64  */ .uploadify-queue-item .file-item {
+/* 65  */ 	width: 734px;
+/* 66  */ 	height: 75px;
+/* 67  */ 	padding: 8px;
+/* 68  */ 	background-color: #f5f5f5;
+/* 69  */ 	font-size: 85%; /* 11px */	
+/* 70  */ }
+/* 71  */ 
+/* 72  */ .fileName {
+/* 73  */ 	display: block;
+/* 74  */ 	margin: 0 0 4px 0;	
+/* 75  */ }
+/* 76  */ 
+/* 77  */ .fileSize,
+/* 78  */ .fileExist,
+/* 79  */ .fileReady,
+/* 80  */ .data,
+/* 81  */ .processing {
+/* 82  */ 	font-weight: 600;	
+/* 83  */ }
+/* 84  */ 
+/* 85  */ .fileError {
+/* 86  */ 	font-weight: bold;	
+/* 87  */ 	font-size: 110%;
+/* 88  */ 	color: #cc0000;	
+/* 89  */ }
+/* 90  */ 
+/* 91  */ .uploadifyError .fileSize,
+/* 92  */ .uploadifyError .data,
+/* 93  */ .repeated .fileReady {
+/* 94  */ 	color: #c91f23;
+/* 95  */ }
+/* 96  */ 
+/* 97  */ .uploadify-queue-item .cancel {
+/* 98  */ 	float: right;
+/* 99  */ }
+/* 100 */ 
+
+/* uploadify.css */
+
+/* 101 */ .uploadify-queue-item .cancel a {
+/* 102 */ 	display: block;
+/* 103 */ 	width: 21px;
+/* 104 */ 	height: 21px;
+/* 105 */ 	background: #d20032;
+/* 106 */ 	text-align: center;
+/* 107 */ 	font-size: 14px;
+/* 108 */ 	color: #ffffff;
+/* 109 */ }
+/* 110 */ 
+/* 111 */ .uploadify-progress {
+/* 112 */ 	background-color: #FFFFFF;
+/* 113 */ 	border: 1px solid #cccccc;
+/* 114 */ 	margin-top: 10px;
+/* 115 */ 	width: 100%;
+/* 116 */ }
+/* 117 */ 
+/* 118 */ .uploadify-progress-bar {
+/* 119 */ 	background-color: #83b01f;
+/* 120 */ 	width: 0;
+/* 121 */ 	height: 7px;
+/* 122 */ }
+/* 123 */ 
+/* 124 */ .ready {
+/* 125 */ 	background: #EDF8D8 url(/site/views/default/_images/success.png) no-repeat 392px 8px;
+/* 126 */ }
+/* 127 */ 
+/* 128 */ .ready .cancel {
+/* 129 */ 	display: none;
+/* 130 */ }
+/* 131 */ 
+/* 132 */ 
+/* 133 */ 
+/* 134 */ /* Uploaded ------------------------------------------------------- */
+/* 135 */ 
+/* 136 */ .uploadedInfo,
+/* 137 */ .uploadedImage,
+/* 138 */ .uploadedForm {
+/* 139 */ 	/*float: left;*/
+/* 140 */ }
+/* 141 */ 
+/* 142 */ .uploadedInfo {
+/* 143 */ 	/*width: 364px;
+/* 144 *| 	padding: 8px;
+/* 145 *| 	font-size: 85%;*/
+/* 146 */ }
+/* 147 */ 
+/* 148 */ .uploadedImage {
+/* 149 */ 	width: 130px;
+/* 150 */ 	height: 130px;
+
+/* uploadify.css */
+
+/* 151 */ 	text-align: center;
+/* 152 */ }
+/* 153 */ 
+/* 154 */ .uploadedForm {
+/* 155 */ 	/*width: 355px;
+/* 156 *| 	padding: 0 5px 0 8px;*/
+/* 157 */ }
+/* 158 */ 
+/* 159 */ .fileReady,
+/* 160 */ .processing {
+/* 161 */ 	display: block;
+/* 162 */ 	margin: 12px 0 0 0;	
+/* 163 */ 	font-size: 14px;
+/* 164 */ 	color: #83b01f;
+/* 165 */ }
+/* 166 */ 
+/* 167 */ .fileReady {
+/* 168 */ 	font-size: 16px;
+/* 169 */ 	font-weight: 600;
+/* 170 */ }
+/* 171 */ 
+/* 172 */ 
+/* 173 */ 
+/* 174 */ 
+/* 175 */ .uploadedForm label {
+/* 176 */ 	padding-top: 8px;
+/* 177 */ 	/*width: 69px;
+/* 178 *| 	color: #83B01F;*/
+/* 179 */ }
+/* 180 */ 
+/* 181 */ .repeated label {
+/* 182 */ 	color: #cccccc;
+/* 183 */ }
+/* 184 */ 
+/* 185 */ .uploadedForm textarea {
+/* 186 */ 	/*width: 276px;
+/* 187 *| 	height: 91px;
+/* 188 *| 	border: none;
+/* 189 *| 	background: url(/site/views/default/_images/upload_textarea.jpg) no-repeat;
+/* 190 *| 	font-size: 85%;
+/* 191 *| 	color: #999999;*/
+/* 192 */ }
+/* 193 */ 
+/* 194 */ .uploadedInfo a.remove {
+/* 195 */ 	display: block;
+/* 196 */ 	margin-top: 8px;
+/* 197 */ 	color: #d20032;
+/* 198 */ 	/*width: 64px;
+/* 199 *| 	height: 16px;
+/* 200 *| 	margin: 2px 0 0 0;
+
+/* uploadify.css */
+
+/* 201 *| 	padding: 2px 22px 0 0;
+/* 202 *| 	background: url(/site/views/default/_images/upload_remove.jpg) no-repeat right;
+/* 203 *| 	font-size: 85%; 
+/* 204 *| 	*/	
+/* 205 */ }
+/* 206 */ 
+/* 207 */ .repeated a.remove {
+/* 208 */ 	/*color: #c91f23;*/	
+/* 209 */ }
+/* 210 */ 
+/* 211 */ 
+/* 212 */ 

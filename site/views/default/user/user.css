@@ -1,0 +1,213 @@
+.page-bar .page-breadcrumb > li > a.how_to_title {
+    display: none;
+}
+
+.form-group.short .form-control {
+    width: 240px;
+}
+
+.register-form h4 {
+    margin-top: 32px;
+    color: #d20032;
+}
+
+.register-form h5 {
+    margin-top: -4px;
+    color: #6c9e2b;
+}
+
+.register-form .form-group {
+    margin-bottom: 10px;
+}
+
+.additional {
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid #dddddd;
+}
+
+.group-buttons {
+    margin: 24px 0;
+}
+
+.file_note {
+    font-size: 15px;
+}
+
+.file_note span {
+    color: #6c9e2b;
+}
+
+.registered h3 {
+    margin: 0 0 24px;
+    font-size: 22px;
+    color: #6c9e2b;
+}
+
+.registered h5 {
+    margin: 20px 0 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #d20032;
+}
+
+#wholesaler-form .alert-warning {
+    margin-bottom: 12px;
+    padding: 7px 10px 10px;
+    border-bottom: 1px solid #c29d0b;
+    font-size: 15px;
+    text-align: right;
+    color: #816807;
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #6c9e2b;
+}
+
+.intro {
+    margin-bottom: 24px;
+}
+
+.background {
+    min-height: 560px;
+    /* background: url('/data/site/back_register.jpg') top right no-repeat; */
+}
+
+.back_orders {
+    /* background: url('/data/site/back_register_00.jpg') top right no-repeat; */
+}
+
+.back_orders .form-group {
+    background: url("/data/site/back_register_00.jpg") top right no-repeat;
+}
+
+.orders .table > tbody > tr > td,
+.orders .table > tbody > tr > th,
+.orders .table > tfoot > tr > td,
+.orders .table > tfoot > tr > th,
+.orders .table > thead > tr > td,
+.orders .table > thead > tr > th {
+    padding: 8px 12px 8px 8px;
+}
+
+.orders .table .right {
+    text-align: right;
+}
+
+.orders .table .subtot {
+    font-weight: 600;
+    color: #6c9e2b;
+}
+
+.orders .order a,
+.orders .invoice a {
+    font-weight: 600;
+}
+
+.orders .table > tbody > tr > td.invoice {
+    padding-right: 16px;
+}
+
+.addresses .table > tbody > tr > td.new,
+.addresses .table > tbody > tr > td.remove {
+    padding-right: 16px;
+}
+
+.addresses .new,
+.addresses .edit {
+    text-align: right;
+}
+
+.addresses .edit {
+    width: 24px;
+}
+
+.addresses .new {
+    font-weight: 600;
+}
+
+.addresses .edit i,
+.addresses .new i {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.addresses .new i {
+    margin-left: 8px;
+}
+
+.btn-cancel {
+    margin-right: 8px;
+}
+
+.tabbable-line {
+    margin-bottom: 24px;
+}
+
+.tabbable-line > .nav-tabs > li.active {
+    border-bottom: 3px solid #d20032;
+}
+
+.tabbable-line > .nav-tabs > li {
+    margin-right: 4px;
+}
+
+.tabbable-line > .nav-tabs > li > a {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 3px solid #d20032;
+}
+
+.p40 {
+    width: 40%;
+}
+.p25 {
+    width: 25%;
+}
+.fbold {
+    font-weight: bold;
+}
+.mt50 {
+    margin-top: 50px;
+}
+form > div > h4:first-of-type {
+    margin-top: 0px !important;
+}
+form h4:nth-of-type(1) + h4 {
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+}
+
+@media (max-width: 500px) {
+    form > .clearfix {
+        margin-bottom: 50px !important;
+    }
+}
+
+#mail_confirmed,
+#mail_sent {
+    color: #ffffff !important;
+    background-color: #00a5e8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#mail_confirmed h2,
+#mail_sent h2 {
+    color: #ffffff !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#mail_sent_1 {
+    font-weight: bold;
+}
+#mail_sent_2 {
+    font-size: 18px !important;
+}
+#ws_user_id {
+    margin-top: 32px !important;
+    margin-bottom: 0px !important;
+}

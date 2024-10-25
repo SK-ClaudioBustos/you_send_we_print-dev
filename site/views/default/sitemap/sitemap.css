@@ -1,0 +1,41 @@
+.sitemap-prods {
+	margin-bottom: 24px;
+}
+
+.sitemap-prods h3 {
+	margin: 24px 0 -6px;
+    font-size: 20px;
+    font-weight: 500;
+	color: #d20032;
+}
+
+.sitemap-prods h3:first-child {
+	margin-top: 0;
+}
+
+.sitemap-prods h4 {
+	margin: 22px 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+	color: #6c9e2b;
+}
+
+.sitemap-prods a {
+	display: block;
+	margin-bottom: 18px;
+	font-size: 15px;
+	line-height: 19px;
+	text-align: center;
+    color: #777777;
+}
+
+.sitemap-prods img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+	#body_sitemap .col-xs-6 {
+  		height: 50vw;
+	}
+}

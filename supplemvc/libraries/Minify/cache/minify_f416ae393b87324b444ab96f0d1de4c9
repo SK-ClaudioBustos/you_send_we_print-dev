@@ -1,0 +1,8 @@
+.nav-tabs>li>a{color:#555}.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{color:#d20032}.questions{padding:15px
+0 10px 15px}.questions
+li{margin:0
+0 6px 12px;font-size:15px}.questions
+a{color:#6c9e2b}blockquote
+h4{margin-top:0;color:#d20032}blockquote
+p{margin:0
+0 8px 0;font-size:14px}
