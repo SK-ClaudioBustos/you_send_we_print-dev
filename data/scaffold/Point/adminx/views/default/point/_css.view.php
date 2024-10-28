@@ -1,0 +1,5 @@
+<?
+$css = array(
+		'point.css'
+	);
+?>

@@ -1,0 +1,5 @@
+<?
+$js = array(
+		'point.js'
+	);
+?>
