@@ -39,22 +39,23 @@ class CustomApp extends SMvcApplication {
 	}
 
 	protected function init_db() {
-		switch ($this->setting->domain) {
-			case '2018.yousendweprint.com':
-			case 'www.2018.yousendweprint.com':
-			case '2018t.yousendweprint.com':
-			case 'www.2018t.yousendweprint.com':
-			case '2020.yousendweprint.com':
-			case 'www.2020.yousendweprint.com':
-				$this->database->connect('yousen5_yousendweprint-test', 'yousen5_blix', 'fH4mwR8p', 'localhost', 'tbl_');
-				break;
-			case 'dev.yousendweprint.com':
-			case 'www.dev.yousendweprint.com':
-				$this->database->connect('yousen5_yousendweprintDev3', 'yousen5_blix', 'fH4mwR8p', 'localhost', 'tbl_');
-				break;
-			default:
-				$this->database->connect('yousen5_yousendweprint', 'yousen5_blix', 'fH4mwR8p', 'localhost', 'tbl_');
-		}
+		$this->database->connect('yousen5_yousendweprintdev3', 'root', '', 'localhost', 'tbl_');
+		// switch ($this->setting->domain) {
+		// 	case '2018.yousendweprint.com':
+		// 	case 'www.2018.yousendweprint.com':
+		// 	case '2018t.yousendweprint.com':
+		// 	case 'www.2018t.yousendweprint.com':
+		// 	case '2020.yousendweprint.com':
+		// 	case 'www.2020.yousendweprint.com':
+		// 		$this->database->connect('yousen5_yousendweprint-test', 'yousen5_blix', 'fH4mwR8p', 'localhost', 'tbl_');
+		// 		break;
+		// 	case 'dev.yousendweprint.com':
+		// 	case 'www.dev.yousendweprint.com':
+		// 		$this->database->connect('yousen5_yousendweprintDev3', 'yousen5_blix', 'fH4mwR8p', 'localhost', 'tbl_');
+		// 		break;
+		// 	default:
+		// 		$this->database->connect('yousen5_yousendweprint', 'yousen5_blix', 'fH4mwR8p', 'localhost', 'tbl_');
+		// }
 	}
 
 }

@@ -1,0 +1,16 @@
+{
+    "name": "sk/dev3",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "adminx/controllers",
+            "adminx2/controllers",
+            "model",
+            "modeldb",
+            "site/controllers",
+            "supplemvc",
+            "supplemvc/base",
+            "supplemvc/controllers"
+        ]
+    }
+}

@@ -74,9 +74,9 @@ class SMvcTemplate {
 	}
 
 	public function page_draw($args, $layout = 'default') {
-		 if ( extension_loaded( 'zlib' ) AND (strpos($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip') !== FALSE) ) {
-	    	ob_start('ob_gzhandler');
-	    }
+		//  if ( extension_loaded( 'zlib' ) AND (strpos($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip') !== FALSE) ) {
+	    	// ob_start('ob_gzhandler');
+	    // }
 
     	$success_msg = $error_msg = '';
 
