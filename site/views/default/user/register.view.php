@@ -68,7 +68,7 @@
 				</div>
 
 				<div class="form-group">
-					<button type="submit" class="btn yswp-red btn-outline pull-right g-recaptcha" data-sitekey="<?= $app->captcha_public ?>" data-callback="cb_submit">
+					<button type="submit" class="btn yswp-red btn-outline pull-right"  data-callback="cb_submit">
 						<?= $lng->text('register:next') ?> <i class="fa fa-arrow-circle-right"></i>
 					</button>
 				</div>

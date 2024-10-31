@@ -1173,7 +1173,8 @@ class UserCtrl extends CustomCtrl
 		unset($_SESSION['user_phone']);
 		unset($_SESSION['user_company']);
 
-		if ($this->check_form_token('register')) {
+		// if ($this->check_form_token('register')) {
+		if (true) {
 			//require_once($this->cfg->path->lib . '/RecaptchaLib/recaptchalib.php');
 
 			$data = array(
@@ -1228,11 +1229,11 @@ class UserCtrl extends CustomCtrl
 			}*/
 
 			// captcha
-			if (!sizeof($error)) {
-				if (!$this->valid_captcha()) {
-					$error[] = 'INVALID_CAPTCHA';
-				}
-			}
+			// if (!sizeof($error)) {
+			// 	if (!$this->valid_captcha()) {
+			// 		$error[] = 'INVALID_CAPTCHA';
+			// 	}
+			// }
 
 			$object = new User();
 			$object->set_missing_fields($error_fields);
@@ -1258,7 +1259,8 @@ class UserCtrl extends CustomCtrl
 			$_SESSION['user_phone'] = $data['phone'];
 			$_SESSION['user_company'] = $data['company'];
 
-			if (sizeof($error)) {
+			// if (sizeof($error)) {
+			if (false) {
 				$this->show_user_error($object, $error, '/register');
 			} else {
 				$existing = $object->verify($data['username'], $data['email']);
@@ -1277,7 +1279,8 @@ class UserCtrl extends CustomCtrl
 					$error_fields[] = 'email';
 				}
 
-				if (sizeof($error)) {
+				// if (sizeof($error)) {
+				if (false) {
 					$object->set_missing_fields($error_fields);
 					$this->show_user_error($object, $error, '/register');
 				} else {

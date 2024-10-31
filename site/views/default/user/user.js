@@ -1,5 +1,5 @@
 function cb_submit() {
-    grecaptcha.execute();
+    // grecaptcha.execute();
     $(".register-form").submit();
 }
 
