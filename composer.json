@@ -2,15 +2,13 @@
     "name": "sk/dev3",
     "require": {},
     "autoload": {
-        "classmap": [
-            "adminx/controllers",
-            "adminx2/controllers",
-            "model",
-            "modeldb",
-            "site/controllers",
-            "supplemvc",
-            "supplemvc/base",
-            "supplemvc/controllers"
-        ]
+        "psr-4": {
+            "Adminx\\": "adminx/",
+            "Adminx2\\": "adminx2/",
+            "Site\\": "site/",
+            "Supplemvc\\": "supplemvc/",
+            "Model\\":"model",
+            "Modeldb\\": "modeldb"
+        }
     }
 }
